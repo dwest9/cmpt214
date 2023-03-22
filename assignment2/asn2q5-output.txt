@@ -1,0 +1,154 @@
+// Name: David Emmanuel
+// Student Number: 11298443
+// Couse: cmpt214 section03 Assignment2 
+// NSID: Doe869
+// Instructor: Tony Kusalik
+
+
+doe869@tux7:~> gcc -Wall -Wextra -o q25 asn2q5.c -lm
+doe869@tux7:~> ./q25
+Welcome To Dhey's Chicken Sandwich Resturant
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $0.00.
+Which item should we add to your order (enter 0 if finished)? 1
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $11.99.
+Which item should we add to your order (enter 0 if finished)? 2
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $25.98.
+Which item should we add to your order (enter 0 if finished)? 3
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $36.97.
+Which item should we add to your order (enter 0 if finished)? 4
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $52.96.
+Which item should we add to your order (enter 0 if finished)? 5
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $61.95.
+Which item should we add to your order (enter 0 if finished)? 6
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $71.94.
+Which item should we add to your order (enter 0 if finished)? 7
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $77.93.
+Which item should we add to your order (enter 0 if finished)? 4
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $93.92.
+Which item should we add to your order (enter 0 if finished)? 8
+Sorry that is not a valid choice. Try it again!
+
+Today's Menu
+1. Original Chicken Sandwich - $11.99
+2. Szechuan Flame Chicken Sandwich - $13.99
+3. Spicy Cumin Chicken Sandwich(spicy) - $10.99
+4. BBQ Chicken Sandwich - $15.99
+
+   (Dhey Signiture Drinks ~ ~ ~) 
+
+5. Matcha Strawberry Milk - $8.99
+6. Lychee Smoothie Macchiato - $9.99
+7. Fresh Taro Latte(Milk Tea) - $5.99
+
+So far your order totals $93.92.
+Which item should we add to your order (enter 0 if finished)? 0
+Your order grand total is now $93.92. Have a great day!
+doe869@tux7:~> 

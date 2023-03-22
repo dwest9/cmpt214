@@ -1,0 +1,7 @@
+doe869@tux6:~> ps -eF |tee asn7q2.txt | tr -s " " | cut -d " " -f 7 | sort | uniq -c | sort| tr -s "  "|cut -c 1-3| head -1
+ 16
+doe869@tux6:~> ps -eF |tee asn7q2.txt | tr -s " " | cut -d " " -f 7 | sort | uniq -c | sort| tr -s "  "|cut -c 1-3| head -1
+ 16
+doe869@tux6:~> ps -eF |tee asn7q2.txt | tr -s " " | cut -d " " -f 7 | sort | uniq -c | sort| tr -s "  "|cut -c 1-3| head -1
+ 16
+doe869@tux6:~> 

@@ -1,0 +1,27 @@
+Name: David Emmanuel
+Student Number: 11298443
+Assignment: cmpt214 Assignment1 
+NSID: Doe869
+
+doe869@tux7:~> gcc -Wall -Wextra -o q1 ans1q1.c
+doe869@tux7:~> ./q1
+Enter an integer: 9
+Enter a decimal number: 8.9
+Enter an integer: 7
+James and Andrew had a project which required them going from house to house collecting surverys.
+ At the end of each day they had collected about 9 surveys. They were to split the total into half after each collection.
+ They had walked 8.9 miles today. And At the end of the month they each get $7 for their contribution to the research program.
+
+doe869@tux7:~> ./q1
+Enter an integer: 7
+Enter a decimal number: k
+q1: must input a decimal number: Success
+
+doe869@tux7:~> ./q1
+Enter an integer: 3
+Enter a decimal number: 2.5
+Enter an integer: 9
+James and Andrew had a project which required them going from house to house collecting surverys.
+ At the end of each day they had collected about 3 surveys. They were to split the total into half after each collection.
+ They had walked 2.5 miles today. And At the end of the month they each get $9 for their contribution to the research program.
+doe869@tux7:~> 

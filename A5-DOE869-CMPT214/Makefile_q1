@@ -1,0 +1,22 @@
+
+# Declare the target ’clean ’ to be a phony rule
+.PHONY: clean
+
+librn: librn.a librn.so
+
+librn.so: rand_num_d.o
+	gcc -shared -o librn.so rand_num_d.o
+
+librn.a: rand_num_s.o
+	ar -c -r -s librn.a rand_num_s.o
+
+# rules to build object files 
+rand_num_s.o: rand_num.c rand_num.h
+	gcc -Wall -Wextra -o rand_num_s.o -c rand_num.c
+
+rand_num_d.o: rand_num.c rand_num.h
+	gcc -Wall -Wextra -o rand_num_d.o -shared -fpic -c rand_num.c
+
+# rule to remove all build targets
+clean:
+	-rm -f *.o

@@ -1,0 +1,27 @@
+// Name: David Emmanuel
+// Student Number: 11298443
+// Couse: cmpt214 section03 Assignment3 
+// NSID: Doe869
+// Instructor: Tony Kusalik
+
+
+doe869@tux6:~> gcc -Wall -Wextra -o q33 asn3q3.c -lm
+doe869@tux6:~> ./q33
+Quest Name                                          Quest Level   Experience
+Destroy the worms in Princess Bubblegum's basement  1             10         
+Infiltrate the bandit's lair                        2             40         
+Defeat Goliad                                       20            4000       
+Locate the Lich's lair                              35            12250      
+Atone for Shoko's sins                              15            2250       
+Make an amazing sandwich                            7             490        
+Find the Ice King's Wizard Eye                      9             810        
+Get some pickles from Prismo                        27            7290       
+Rescue Wildberry Princess from the Ice King         12            1440       
+Win Wizard Battle                                   13            1690       
+Eat Marceline's fries                               3             90         
+Rescue Marceline from the Nightosphere              21            441        
+Discover Peppermint Butler's secrets                32            10240      
+Defeat the Ice King's penguin army                  27            7290       
+Discover the Ice King's secret past                 10            1000       
+Find out what Beemo does when he is alone           6             360        
+doe869@tux6:~> 

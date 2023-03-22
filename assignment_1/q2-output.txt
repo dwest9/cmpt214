@@ -1,0 +1,43 @@
+// Name: David Emmanuel
+// Student Number: 11298443
+// Assignment: cmpt214 Assignment1 
+// NSID: Doe869
+
+
+doe869@tux7:~> gcc -Wall -Wextra -o q2 ans1q2.c -lm
+doe869@tux7:~> ./q2
+What is the monster's level?  12
+What is the hero's level?  7
+The monster is level 12.
+The hero is level 7.
+The monster's base XP value is 130.
+The monster's adjusted XP is 323.
+
+
+doe869@tux7:~> ./q2
+What is the monster's level?  g
+q2: input error: normal termination: Success
+
+
+doe869@tux7:~> ./q2
+What is the monster's level?  8
+What is the hero's level?  o
+q2: input error: normal termination: Success
+
+
+doe869@tux7:~> ./q2
+What is the monster's level?  10
+What is the hero's level?  19
+The monster is level 10.
+The hero is level 19.
+The monster's base XP value is 125.
+The monster's adjusted XP is 24.
+
+
+doe869@tux7:~> ./q2
+What is the monster's level?  7
+What is the hero's level?  9
+The monster is level 7.
+The hero is level 9.
+The monster's base XP value is 117.
+The monster's adjusted XP is 81.

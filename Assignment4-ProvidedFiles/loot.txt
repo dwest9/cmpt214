@@ -1,0 +1,16 @@
+15
+Dust_of_Deliciousness          7 600 Uncommon  1 0.15
+Kneepads_of_Allure             12 1550 Rare 20 0.005
+Unnatural_Axe                  15   6000 Rare 50 0.003
+Psionic_Spirit_Blade           19 120000  Rare 35 0.004
+Wand_of_Cynicism               2 300 Common 5 0.20
+Scroll_of_Conjure_Milk         3 125    Uncommon 1 0.1
+Pervon's_Finger_Bone            20 500000   Legendary 27 0.00001
+Sword_of_Ogre_Decapitation_+9  14 36000 Rare 25 0.00034
+Beanie_of_Minor_Disguise       3 52     Common  9 0.09
+Hideous_Halberd                8 2424 Uncommon 97 0.023
+Spatula_of_Justice              19 340123 Legendary 38  0.000098
+The_Shortest_Bow               6 1989 Uncommon     18 0.0076
+Socially_Awkward_Flame_Blade   11 6790 Rare 64   0.000196
+Scroll_of_Fog_of_Enlightenment  8   250 Uncommon 1 0.075
+Censer_of_Tarrasque_Summoning  17 42000 Legendary 29 0.00024

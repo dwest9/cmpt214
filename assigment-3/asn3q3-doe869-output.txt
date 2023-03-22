@@ -1,0 +1,24 @@
+// Name: David Emmanuel
+// Student Number: 11298443
+// Couse: cmpt214 section03 Assignment3 
+// NSID: Doe869
+// Instructor: Tony Kusalik
+
+
+doe869@tux6:~> gcc -Wall -Wextra -o q33 asn3q3.c -lm
+doe869@tux6:~> ./q33
+Quest Name                                          Quest Level   Experience
+Choose a challenge                                  8             20         
+Destroy the town with the sword of camelot          13            25         
+Open the gates to the castle                        1             9          
+Get the splinter from the castle door               15            60         
+Apply the healing ointment to recover               70            60         
+Get some food for the warriors                      100           80         
+Pick an outfit to wear to the battle                1000          111        
+Summon your friends for battle                      23            88         
+Go to the Awesome Store                             13            14         
+Catch the midnight burglar                          3             5          
+Eat gumball's cookie                                46            65         
+Move to the next level                              56            77         
+Fight your true enemy                               10            250        
+doe869@tux6:~> 

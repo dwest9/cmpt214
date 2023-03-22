@@ -1,0 +1,38 @@
+-rw-r----- 1 doe869 student 1920 Nov 14 14:00 librn.a
+librn.a: current ar archive
+
+rand_num_s.o:
+                 U err
+                 U gettimeofday
+0000000000000000 T rand_init
+000000000000003f T rand_num
+                 U random
+                 U srandom
+-rwxr-x--- 1 doe869 csstudent 15920 Nov 14 14:12 librn.so*
+librn.so: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=7fcd79096bd64940cf5a9c075d16f7531217d05f, not stripped
+0000000000004040 b completed.0
+                 w __cxa_finalize@GLIBC_2.2.5
+0000000000001080 t deregister_tm_clones
+00000000000010f0 t __do_global_dtors_aux
+0000000000003e10 d __do_global_dtors_aux_fini_array_entry
+0000000000003e18 d __dso_handle
+0000000000003e20 d _DYNAMIC
+                 U err@GLIBC_2.2.5
+00000000000011c4 t _fini
+0000000000001130 t frame_dummy
+0000000000003e08 d __frame_dummy_init_array_entry
+00000000000020ac r __FRAME_END__
+                 U gettimeofday@GLIBC_2.2.5
+0000000000004000 d _GLOBAL_OFFSET_TABLE_
+                 w __gmon_start__
+0000000000002000 r __GNU_EH_FRAME_HDR
+0000000000001000 t _init
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+0000000000001139 T rand_init
+0000000000001178 T rand_num
+                 U random@GLIBC_2.2.5
+00000000000010b0 t register_tm_clones
+                 U srandom@GLIBC_2.2.5
+0000000000004040 d __TMC_END__
+

@@ -1,0 +1,1536 @@
+UID          PID    PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+root           1       0  0 43698 15476  18 May10 ?        01:03:43 /usr/lib/systemd/systemd rhgb --system --deserialize 71
+root           2       0  0     0     0  47 May10 ?        00:03:05 [kthreadd]
+root           3       2  0     0     0   0 May10 ?        00:00:00 [rcu_gp]
+root           4       2  0     0     0  21 May10 ?        00:00:00 [rcu_par_gp]
+root           5       2  0     0     0   0 May10 ?        00:00:00 [netns]
+root           7       2  0     0     0   0 May10 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          11       2  0     0     0  22 May10 ?        00:00:00 [mm_percpu_wq]
+root          12       2  0     0     0  10 May10 ?        00:00:00 [rcu_tasks_kthread]
+root          13       2  0     0     0   0 May10 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          14       2  0     0     0   0 May10 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          15       2  0     0     0   0 May10 ?        00:03:37 [ksoftirqd/0]
+root          16       2  0     0     0  20 May10 ?        01:32:14 [rcu_preempt]
+root          17       2  0     0     0   0 May10 ?        00:00:33 [migration/0]
+root          18       2  0     0     0   0 May10 ?        00:00:00 [cpuhp/0]
+root          19       2  0     0     0   1 May10 ?        00:00:00 [cpuhp/1]
+root          20       2  0     0     0   1 May10 ?        00:00:41 [migration/1]
+root          21       2  0     0     0   1 May10 ?        00:00:52 [ksoftirqd/1]
+root          23       2  0     0     0   1 May10 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          25       2  0     0     0   2 May10 ?        00:00:00 [cpuhp/2]
+root          26       2  0     0     0   2 May10 ?        00:00:35 [migration/2]
+root          27       2  0     0     0   2 May10 ?        00:00:42 [ksoftirqd/2]
+root          29       2  0     0     0   2 May10 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          30       2  0     0     0   3 May10 ?        00:00:00 [cpuhp/3]
+root          31       2  0     0     0   3 May10 ?        00:00:43 [migration/3]
+root          32       2  0     0     0   3 May10 ?        00:00:18 [ksoftirqd/3]
+root          34       2  0     0     0   3 May10 ?        00:00:00 [kworker/3:0H-kblockd]
+root          35       2  0     0     0   4 May10 ?        00:00:00 [cpuhp/4]
+root          36       2  0     0     0   4 May10 ?        00:00:34 [migration/4]
+root          37       2  0     0     0   4 May10 ?        00:00:32 [ksoftirqd/4]
+root          39       2  0     0     0   4 May10 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          40       2  0     0     0   5 May10 ?        00:00:00 [cpuhp/5]
+root          41       2  0     0     0   5 May10 ?        00:00:48 [migration/5]
+root          42       2  0     0     0   5 May10 ?        00:00:14 [ksoftirqd/5]
+root          44       2  0     0     0   5 May10 ?        00:00:00 [kworker/5:0H-kblockd]
+root          45       2  0     0     0   6 May10 ?        00:00:00 [cpuhp/6]
+root          46       2  0     0     0   6 May10 ?        00:00:35 [migration/6]
+root          47       2  0     0     0   6 May10 ?        00:00:23 [ksoftirqd/6]
+root          49       2  0     0     0   6 May10 ?        00:00:00 [kworker/6:0H-events_highpri]
+root          50       2  0     0     0   7 May10 ?        00:00:00 [cpuhp/7]
+root          51       2  0     0     0   7 May10 ?        00:00:48 [migration/7]
+root          52       2  0     0     0   7 May10 ?        00:00:13 [ksoftirqd/7]
+root          54       2  0     0     0   7 May10 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          55       2  0     0     0   8 May10 ?        00:00:00 [cpuhp/8]
+root          56       2  0     0     0   8 May10 ?        00:00:36 [migration/8]
+root          57       2  0     0     0   8 May10 ?        00:00:21 [ksoftirqd/8]
+root          59       2  0     0     0   8 May10 ?        00:00:00 [kworker/8:0H-kblockd]
+root          60       2  0     0     0   9 May10 ?        00:00:00 [cpuhp/9]
+root          61       2  0     0     0   9 May10 ?        00:00:46 [migration/9]
+root          62       2  0     0     0   9 May10 ?        00:00:13 [ksoftirqd/9]
+root          64       2  0     0     0   9 May10 ?        00:00:00 [kworker/9:0H-events_highpri]
+root          65       2  0     0     0  10 May10 ?        00:00:00 [cpuhp/10]
+root          66       2  0     0     0  10 May10 ?        00:00:36 [migration/10]
+root          67       2  0     0     0  10 May10 ?        00:00:20 [ksoftirqd/10]
+root          69       2  0     0     0  10 May10 ?        00:00:00 [kworker/10:0H-events_highpri]
+root          70       2  0     0     0  11 May10 ?        00:00:00 [cpuhp/11]
+root          71       2  0     0     0  11 May10 ?        00:00:48 [migration/11]
+root          72       2  0     0     0  11 May10 ?        00:00:12 [ksoftirqd/11]
+root          74       2  0     0     0  11 May10 ?        00:00:00 [kworker/11:0H-events_highpri]
+root          75       2  0     0     0  12 May10 ?        00:00:00 [cpuhp/12]
+root          76       2  0     0     0  12 May10 ?        00:00:35 [migration/12]
+root          77       2  0     0     0  12 May10 ?        00:00:20 [ksoftirqd/12]
+root          79       2  0     0     0  12 May10 ?        00:00:00 [kworker/12:0H-events_highpri]
+root          80       2  0     0     0  13 May10 ?        00:00:00 [cpuhp/13]
+root          81       2  0     0     0  13 May10 ?        00:00:46 [migration/13]
+root          82       2  0     0     0  13 May10 ?        00:00:12 [ksoftirqd/13]
+root          84       2  0     0     0  13 May10 ?        00:00:00 [kworker/13:0H-events_highpri]
+root          85       2  0     0     0  14 May10 ?        00:00:00 [cpuhp/14]
+root          86       2  0     0     0  14 May10 ?        00:00:35 [migration/14]
+root          87       2  0     0     0  14 May10 ?        00:00:28 [ksoftirqd/14]
+root          89       2  0     0     0  14 May10 ?        00:00:00 [kworker/14:0H-kblockd]
+root          90       2  0     0     0  15 May10 ?        00:00:00 [cpuhp/15]
+root          91       2  0     0     0  15 May10 ?        00:00:44 [migration/15]
+root          92       2  0     0     0  15 May10 ?        00:00:12 [ksoftirqd/15]
+root          94       2  0     0     0  15 May10 ?        00:00:00 [kworker/15:0H-events_highpri]
+root          95       2  0     0     0  16 May10 ?        00:00:00 [cpuhp/16]
+root          96       2  0     0     0  16 May10 ?        00:00:35 [migration/16]
+root          97       2  0     0     0  16 May10 ?        00:00:20 [ksoftirqd/16]
+root          99       2  0     0     0  16 May10 ?        00:00:00 [kworker/16:0H-events_highpri]
+root         100       2  0     0     0  17 May10 ?        00:00:00 [cpuhp/17]
+root         101       2  0     0     0  17 May10 ?        00:00:43 [migration/17]
+root         102       2  0     0     0  17 May10 ?        00:00:12 [ksoftirqd/17]
+root         104       2  0     0     0  17 May10 ?        00:00:00 [kworker/17:0H-events_highpri]
+root         105       2  0     0     0  18 May10 ?        00:00:00 [cpuhp/18]
+root         106       2  0     0     0  18 May10 ?        00:00:34 [migration/18]
+root         107       2  0     0     0  18 May10 ?        00:00:20 [ksoftirqd/18]
+root         109       2  0     0     0  18 May10 ?        00:00:00 [kworker/18:0H-events_highpri]
+root         110       2  0     0     0  19 May10 ?        00:00:00 [cpuhp/19]
+root         111       2  0     0     0  19 May10 ?        00:00:41 [migration/19]
+root         112       2  0     0     0  19 May10 ?        00:00:12 [ksoftirqd/19]
+root         114       2  0     0     0  19 May10 ?        00:00:00 [kworker/19:0H-kblockd]
+root         115       2  0     0     0  20 May10 ?        00:00:00 [cpuhp/20]
+root         116       2  0     0     0  20 May10 ?        00:00:33 [migration/20]
+root         117       2  0     0     0  20 May10 ?        00:00:20 [ksoftirqd/20]
+root         119       2  0     0     0  20 May10 ?        00:00:00 [kworker/20:0H-kblockd]
+root         120       2  0     0     0  21 May10 ?        00:00:00 [cpuhp/21]
+root         121       2  0     0     0  21 May10 ?        00:00:40 [migration/21]
+root         122       2  0     0     0  21 May10 ?        00:00:11 [ksoftirqd/21]
+root         124       2  0     0     0  21 May10 ?        00:00:00 [kworker/21:0H-events_highpri]
+root         125       2  0     0     0  22 May10 ?        00:00:00 [cpuhp/22]
+root         126       2  0     0     0  22 May10 ?        00:00:33 [migration/22]
+root         127       2  0     0     0  22 May10 ?        00:00:25 [ksoftirqd/22]
+root         129       2  0     0     0  22 May10 ?        00:00:00 [kworker/22:0H-kblockd]
+root         130       2  0     0     0  23 May10 ?        00:00:00 [cpuhp/23]
+root         131       2  0     0     0  23 May10 ?        00:00:40 [migration/23]
+root         132       2  0     0     0  23 May10 ?        00:00:12 [ksoftirqd/23]
+root         134       2  0     0     0  23 May10 ?        00:00:00 [kworker/23:0H-kblockd]
+root         135       2  0     0     0  24 May10 ?        00:00:00 [cpuhp/24]
+root         136       2  0     0     0  24 May10 ?        00:00:32 [migration/24]
+root         137       2  0     0     0  24 May10 ?        00:00:17 [ksoftirqd/24]
+root         139       2  0     0     0  24 May10 ?        00:00:00 [kworker/24:0H-kblockd]
+root         140       2  0     0     0  25 May10 ?        00:00:00 [cpuhp/25]
+root         141       2  0     0     0  25 May10 ?        00:00:36 [migration/25]
+root         142       2  0     0     0  25 May10 ?        00:00:10 [ksoftirqd/25]
+root         144       2  0     0     0  25 May10 ?        00:00:00 [kworker/25:0H-kblockd]
+root         145       2  0     0     0  26 May10 ?        00:00:00 [cpuhp/26]
+root         146       2  0     0     0  26 May10 ?        00:00:32 [migration/26]
+root         147       2  0     0     0  26 May10 ?        00:00:19 [ksoftirqd/26]
+root         149       2  0     0     0  26 May10 ?        00:00:00 [kworker/26:0H-kblockd]
+root         150       2  0     0     0  27 May10 ?        00:00:00 [cpuhp/27]
+root         151       2  0     0     0  27 May10 ?        00:00:39 [migration/27]
+root         152       2  0     0     0  27 May10 ?        00:00:11 [ksoftirqd/27]
+root         154       2  0     0     0  27 May10 ?        00:00:00 [kworker/27:0H-kblockd]
+root         155       2  0     0     0  28 May10 ?        00:00:00 [cpuhp/28]
+root         156       2  0     0     0  28 May10 ?        00:00:31 [migration/28]
+root         157       2  0     0     0  28 May10 ?        00:00:18 [ksoftirqd/28]
+root         159       2  0     0     0  28 May10 ?        00:00:00 [kworker/28:0H-events_highpri]
+root         160       2  0     0     0  29 May10 ?        00:00:00 [cpuhp/29]
+root         161       2  0     0     0  29 May10 ?        00:00:43 [migration/29]
+root         162       2  0     0     0  29 May10 ?        00:00:12 [ksoftirqd/29]
+root         164       2  0     0     0  29 May10 ?        00:00:00 [kworker/29:0H-events_highpri]
+root         165       2  0     0     0  30 May10 ?        00:00:00 [cpuhp/30]
+root         166       2  0     0     0  30 May10 ?        00:00:33 [migration/30]
+root         167       2  0     0     0  30 May10 ?        00:00:36 [ksoftirqd/30]
+root         169       2  0     0     0  30 May10 ?        00:00:00 [kworker/30:0H-events_highpri]
+root         170       2  0     0     0  31 May10 ?        00:00:00 [cpuhp/31]
+root         171       2  0     0     0  31 May10 ?        00:00:44 [migration/31]
+root         172       2  0     0     0  31 May10 ?        00:00:11 [ksoftirqd/31]
+root         174       2  0     0     0  31 May10 ?        00:00:00 [kworker/31:0H-events_highpri]
+root         175       2  0     0     0  32 May10 ?        00:00:00 [cpuhp/32]
+root         176       2  0     0     0  32 May10 ?        00:00:35 [migration/32]
+root         177       2  0     0     0  32 May10 ?        00:00:20 [ksoftirqd/32]
+root         179       2  0     0     0  32 May10 ?        00:00:00 [kworker/32:0H-events_highpri]
+root         180       2  0     0     0  33 May10 ?        00:00:00 [cpuhp/33]
+root         181       2  0     0     0  33 May10 ?        00:00:41 [migration/33]
+root         182       2  0     0     0  33 May10 ?        00:00:11 [ksoftirqd/33]
+root         184       2  0     0     0  33 May10 ?        00:00:00 [kworker/33:0H-events_highpri]
+root         185       2  0     0     0  34 May10 ?        00:00:00 [cpuhp/34]
+root         186       2  0     0     0  34 May10 ?        00:00:34 [migration/34]
+root         187       2  0     0     0  34 May10 ?        00:00:20 [ksoftirqd/34]
+root         189       2  0     0     0  34 May10 ?        00:00:00 [kworker/34:0H-events_highpri]
+root         190       2  0     0     0  35 May10 ?        00:00:00 [cpuhp/35]
+root         191       2  0     0     0  35 May10 ?        00:00:44 [migration/35]
+root         192       2  0     0     0  35 May10 ?        00:00:11 [ksoftirqd/35]
+root         194       2  0     0     0  35 May10 ?        00:00:00 [kworker/35:0H-kblockd]
+root         195       2  0     0     0  36 May10 ?        00:00:00 [cpuhp/36]
+root         196       2  0     0     0  36 May10 ?        00:00:33 [migration/36]
+root         197       2  0     0     0  36 May10 ?        00:00:19 [ksoftirqd/36]
+root         199       2  0     0     0  36 May10 ?        00:00:00 [kworker/36:0H-events_highpri]
+root         200       2  0     0     0  37 May10 ?        00:00:00 [cpuhp/37]
+root         201       2  0     0     0  37 May10 ?        00:00:43 [migration/37]
+root         202       2  0     0     0  37 May10 ?        00:00:11 [ksoftirqd/37]
+root         204       2  0     0     0  37 May10 ?        00:00:00 [kworker/37:0H-kblockd]
+root         205       2  0     0     0  38 May10 ?        00:00:00 [cpuhp/38]
+root         206       2  0     0     0  38 May10 ?        00:00:32 [migration/38]
+root         207       2  0     0     0  38 May10 ?        00:00:21 [ksoftirqd/38]
+root         209       2  0     0     0  38 May10 ?        00:00:00 [kworker/38:0H-events_highpri]
+root         210       2  0     0     0  39 May10 ?        00:00:00 [cpuhp/39]
+root         211       2  0     0     0  39 May10 ?        00:00:41 [migration/39]
+root         212       2  0     0     0  39 May10 ?        00:00:11 [ksoftirqd/39]
+root         214       2  0     0     0  39 May10 ?        00:00:00 [kworker/39:0H-kblockd]
+root         215       2  0     0     0  40 May10 ?        00:00:00 [cpuhp/40]
+root         216       2  0     0     0  40 May10 ?        00:00:33 [migration/40]
+root         217       2  0     0     0  40 May10 ?        00:00:19 [ksoftirqd/40]
+root         219       2  0     0     0  40 May10 ?        00:00:00 [kworker/40:0H-events_highpri]
+root         220       2  0     0     0  41 May10 ?        00:00:00 [cpuhp/41]
+root         221       2  0     0     0  41 May10 ?        00:00:40 [migration/41]
+root         222       2  0     0     0  41 May10 ?        00:00:11 [ksoftirqd/41]
+root         224       2  0     0     0  41 May10 ?        00:00:00 [kworker/41:0H-kblockd]
+root         225       2  0     0     0  42 May10 ?        00:00:00 [cpuhp/42]
+root         226       2  0     0     0  42 May10 ?        00:00:33 [migration/42]
+root         227       2  0     0     0  42 May10 ?        00:00:20 [ksoftirqd/42]
+root         229       2  0     0     0  42 May10 ?        00:00:00 [kworker/42:0H-kblockd]
+root         230       2  0     0     0  43 May10 ?        00:00:00 [cpuhp/43]
+root         231       2  0     0     0  43 May10 ?        00:00:39 [migration/43]
+root         232       2  0     0     0  43 May10 ?        00:00:11 [ksoftirqd/43]
+root         234       2  0     0     0  43 May10 ?        00:00:00 [kworker/43:0H-kblockd]
+root         235       2  0     0     0  44 May10 ?        00:00:00 [cpuhp/44]
+root         236       2  0     0     0  44 May10 ?        00:00:32 [migration/44]
+root         237       2  0     0     0  44 May10 ?        00:00:20 [ksoftirqd/44]
+root         239       2  0     0     0  44 May10 ?        00:00:00 [kworker/44:0H-events_highpri]
+root         240       2  0     0     0  45 May10 ?        00:00:00 [cpuhp/45]
+root         241       2  0     0     0  45 May10 ?        00:00:38 [migration/45]
+root         242       2  0     0     0  45 May10 ?        00:00:10 [ksoftirqd/45]
+root         244       2  0     0     0  45 May10 ?        00:00:00 [kworker/45:0H-events_highpri]
+root         245       2  0     0     0  46 May10 ?        00:00:00 [cpuhp/46]
+root         246       2  0     0     0  46 May10 ?        00:00:32 [migration/46]
+root         247       2  0     0     0  46 May10 ?        00:00:20 [ksoftirqd/46]
+root         249       2  0     0     0  46 May10 ?        00:00:00 [kworker/46:0H-events_highpri]
+root         250       2  0     0     0  47 May10 ?        00:00:00 [cpuhp/47]
+root         251       2  0     0     0  47 May10 ?        00:00:38 [migration/47]
+root         252       2  0     0     0  47 May10 ?        00:00:11 [ksoftirqd/47]
+root         254       2  0     0     0  47 May10 ?        00:00:00 [kworker/47:0H-events_highpri]
+root         255       2  0     0     0  34 May10 ?        00:00:00 [kdevtmpfs]
+root         256       2  0     0     0   4 May10 ?        00:00:00 [inet_frag_wq]
+root         257       2  0     0     0  20 May10 ?        00:00:28 [kauditd]
+root         261       2  0     0     0  12 May10 ?        00:00:00 [oom_reaper]
+root         262       2  0     0     0  14 May10 ?        00:00:00 [writeback]
+root         263       2  0     0     0  18 May10 ?        00:04:02 [kcompactd0]
+root         264       2  0     0     0   9 May10 ?        00:02:48 [kcompactd1]
+root         265       2  0     0     0  37 May10 ?        00:00:00 [ksmd]
+root         266       2  0     0     0  12 May10 ?        00:00:12 [khugepaged]
+root         267       2  0     0     0  46 May10 ?        00:00:00 [cryptd]
+root         268       2  0     0     0   4 May10 ?        00:00:00 [kintegrityd]
+root         269       2  0     0     0  10 May10 ?        00:00:00 [kblockd]
+root         270       2  0     0     0   6 May10 ?        00:00:00 [blkcg_punt_bio]
+root         271       2  0     0     0   8 May10 ?        00:00:00 [tpm_dev_wq]
+root         272       2  0     0     0  42 May10 ?        00:00:00 [ata_sff]
+root         273       2  0     0     0  44 May10 ?        00:00:00 [md]
+root         274       2  0     0     0  12 May10 ?        00:00:00 [edac-poller]
+root         275       2  0     0     0  46 May10 ?        00:00:00 [watchdogd]
+root         278       2  0     0     0   0 May10 ?        00:00:11 [kworker/0:1H-kblockd]
+root         279       2  0     0     0  14 May10 ?        00:02:56 [kswapd0]
+root         280       2  0     0     0  19 May10 ?        00:03:11 [kswapd1]
+root         288       2  0     0     0  36 May10 ?        00:00:00 [kthrotld]
+root         294       2  0     0     0   4 May10 ?        00:00:00 [irq/25-aerdrv]
+root         295       2  0     0     0   6 May10 ?        00:00:00 [irq/26-aerdrv]
+root         296       2  0     0     0   8 May10 ?        00:00:00 [irq/27-aerdrv]
+root         297       2  0     0     0  10 May10 ?        00:00:00 [irq/28-pciehp]
+root         298       2  0     0     0  12 May10 ?        00:00:00 [irq/29-aerdrv]
+root         299       2  0     0     0  14 May10 ?        00:00:00 [irq/30-aerdrv]
+root         300       2  0     0     0  16 May10 ?        00:00:00 [irq/31-aerdrv]
+root         301       2  0     0     0  32 May10 ?        00:00:00 [acpi_thermal_pm]
+root         302       2  0     0     0  40 May10 ?        00:00:00 [scsi_eh_0]
+root         303       2  0     0     0  44 May10 ?        00:00:00 [scsi_tmf_0]
+root         304       2  0     0     0  46 May10 ?        00:00:00 [scsi_eh_1]
+root         305       2  0     0     0  34 May10 ?        00:00:00 [scsi_tmf_1]
+root         306       2  0     0     0  42 May10 ?        00:00:00 [scsi_eh_2]
+root         307       2  0     0     0  38 May10 ?        00:00:00 [scsi_tmf_2]
+root         308       2  0     0     0  28 May10 ?        00:00:00 [scsi_eh_3]
+root         309       2  0     0     0  30 May10 ?        00:00:00 [scsi_tmf_3]
+root         312       2  0     0     0  32 May10 ?        00:00:00 [scsi_eh_4]
+root         313       2  0     0     0  40 May10 ?        00:00:00 [scsi_tmf_4]
+root         314       2  0     0     0  44 May10 ?        00:00:00 [scsi_eh_5]
+root         315       2  0     0     0  34 May10 ?        00:00:00 [scsi_tmf_5]
+root         316       2  0     0     0  42 May10 ?        00:00:00 [scsi_eh_6]
+root         317       2  0     0     0  46 May10 ?        00:00:00 [scsi_tmf_6]
+root         318       2  0     0     0  38 May10 ?        00:00:00 [scsi_eh_7]
+root         319       2  0     0     0  36 May10 ?        00:00:00 [scsi_tmf_7]
+root         320       2  0     0     0  30 May10 ?        00:00:00 [scsi_eh_8]
+root         321       2  0     0     0  28 May10 ?        00:00:00 [scsi_tmf_8]
+root         322       2  0     0     0  39 May10 ?        00:00:00 [scsi_eh_9]
+root         323       2  0     0     0   2 May10 ?        00:00:00 [scsi_tmf_9]
+root         330       2  0     0     0  36 May10 ?        00:00:00 [dm_bufio_cache]
+root         331       2  0     0     0  28 May10 ?        00:00:00 [mld]
+root         332       2  0     0     0   2 May10 ?        00:00:11 [kworker/2:1H-kblockd]
+root         333       2  0     0     0  32 May10 ?        00:00:00 [ipv6_addrconf]
+root         340       2  0     0     0  38 May10 ?        00:00:00 [kstrp]
+root         370       2  0     0     0  30 May10 ?        00:00:00 [zswap-shrink]
+root         371       2  0     0     0  28 May10 ?        00:00:00 [kworker/u99:0]
+root         372       2  0     0     0  32 May10 ?        00:00:00 [kworker/u100:0]
+root         373       2  0     0     0   1 May10 ?        00:00:00 [kworker/u101:0]
+root         501       2  0     0     0  24 May10 ?        00:00:07 [kworker/24:1H-kblockd]
+root         544       2  0     0     0  40 May10 ?        00:00:07 [kworker/40:1H-kblockd]
+root         561       2  0     0     0  34 May10 ?        00:00:00 [ipmi-msghandler]
+root         563       2  0     0     0   4 May10 ?        00:00:10 [kworker/4:1H-kblockd]
+root         565       2  0     0     0  28 May10 ?        00:00:07 [kworker/28:1H-kblockd]
+root         574       2  0     0     0   6 May10 ?        00:00:10 [kworker/6:1H-kblockd]
+root         576       2  0     0     0  32 May10 ?        00:00:09 [kworker/32:1H-kblockd]
+root         582       2  0     0     0  36 May10 ?        00:00:07 [kworker/36:1H-kblockd]
+root         635       2  0     0     0   7 May10 ?        00:00:10 [kworker/7:1H-kblockd]
+root         690       2  0     0     0  38 May10 ?        00:00:00 [iscsi_eh]
+root         691       2  0     0     0  42 May10 ?        00:00:00 [iscsi_conn_clea]
+root         696       2  0     0     0  44 May10 ?        00:00:00 [cnic_wq]
+root         697       2  0     0     0   0 May10 ?        00:00:00 [bnx2i_thread/0]
+root         698       2  0     0     0   1 May10 ?        00:00:00 [bnx2i_thread/1]
+root         699       2  0     0     0   2 May10 ?        00:00:00 [bnx2i_thread/2]
+root         700       2  0     0     0   3 May10 ?        00:00:00 [bnx2i_thread/3]
+root         701       2  0     0     0   4 May10 ?        00:00:00 [bnx2i_thread/4]
+root         702       2  0     0     0   5 May10 ?        00:00:00 [bnx2i_thread/5]
+root         703       2  0     0     0   6 May10 ?        00:00:00 [bnx2i_thread/6]
+root         704       2  0     0     0   7 May10 ?        00:00:00 [bnx2i_thread/7]
+root         705       2  0     0     0   8 May10 ?        00:00:00 [bnx2i_thread/8]
+root         706       2  0     0     0   9 May10 ?        00:00:00 [bnx2i_thread/9]
+root         707       2  0     0     0  10 May10 ?        00:00:00 [bnx2i_thread/10]
+root         708       2  0     0     0  11 May10 ?        00:00:00 [bnx2i_thread/11]
+root         709       2  0     0     0  12 May10 ?        00:00:00 [bnx2i_thread/12]
+root         710       2  0     0     0  13 May10 ?        00:00:00 [bnx2i_thread/13]
+root         711       2  0     0     0  14 May10 ?        00:00:00 [bnx2i_thread/14]
+root         712       2  0     0     0  15 May10 ?        00:00:00 [bnx2i_thread/15]
+root         713       2  0     0     0  16 May10 ?        00:00:00 [bnx2i_thread/16]
+root         714       2  0     0     0  17 May10 ?        00:00:00 [bnx2i_thread/17]
+root         715       2  0     0     0  18 May10 ?        00:00:00 [bnx2i_thread/18]
+root         716       2  0     0     0  19 May10 ?        00:00:00 [bnx2i_thread/19]
+root         717       2  0     0     0  20 May10 ?        00:00:00 [bnx2i_thread/20]
+root         718       2  0     0     0  21 May10 ?        00:00:00 [bnx2i_thread/21]
+root         719       2  0     0     0  22 May10 ?        00:00:00 [bnx2i_thread/22]
+root         720       2  0     0     0  23 May10 ?        00:00:00 [bnx2i_thread/23]
+root         721       2  0     0     0  24 May10 ?        00:00:00 [bnx2i_thread/24]
+root         722       2  0     0     0  25 May10 ?        00:00:00 [bnx2i_thread/25]
+root         723       2  0     0     0  26 May10 ?        00:00:00 [bnx2i_thread/26]
+root         724       2  0     0     0  27 May10 ?        00:00:00 [bnx2i_thread/27]
+root         725       2  0     0     0  28 May10 ?        00:00:00 [bnx2i_thread/28]
+root         726       2  0     0     0  29 May10 ?        00:00:00 [bnx2i_thread/29]
+root         727       2  0     0     0  30 May10 ?        00:00:00 [bnx2i_thread/30]
+root         728       2  0     0     0  31 May10 ?        00:00:00 [bnx2i_thread/31]
+root         729       2  0     0     0  32 May10 ?        00:00:00 [bnx2i_thread/32]
+root         730       2  0     0     0  33 May10 ?        00:00:00 [bnx2i_thread/33]
+root         731       2  0     0     0  34 May10 ?        00:00:00 [bnx2i_thread/34]
+root         732       2  0     0     0  35 May10 ?        00:00:00 [bnx2i_thread/35]
+root         733       2  0     0     0  36 May10 ?        00:00:00 [bnx2i_thread/36]
+root         734       2  0     0     0  37 May10 ?        00:00:00 [bnx2i_thread/37]
+root         735       2  0     0     0  38 May10 ?        00:00:00 [bnx2i_thread/38]
+root         736       2  0     0     0  39 May10 ?        00:00:00 [bnx2i_thread/39]
+root         737       2  0     0     0  40 May10 ?        00:00:00 [bnx2i_thread/40]
+root         738       2  0     0     0  41 May10 ?        00:00:00 [bnx2i_thread/41]
+root         739       2  0     0     0  42 May10 ?        00:00:00 [bnx2i_thread/42]
+root         740       2  0     0     0  43 May10 ?        00:00:00 [bnx2i_thread/43]
+root         741       2  0     0     0  44 May10 ?        00:00:00 [bnx2i_thread/44]
+root         742       2  0     0     0  45 May10 ?        00:00:00 [bnx2i_thread/45]
+root         743       2  0     0     0  46 May10 ?        00:00:00 [bnx2i_thread/46]
+root         744       2  0     0     0  47 May10 ?        00:00:00 [bnx2i_thread/47]
+root         780       2  0     0     0  38 May10 ?        00:00:00 [rpciod]
+root         781       2  0     0     0   8 May10 ?        00:00:00 [xprtiod]
+root         805       2  0     0     0  36 May10 ?        00:00:00 [kmpathd]
+root         806       2  0     0     0  46 May10 ?        00:00:00 [kmpath_handlerd]
+root         862       2  0     0     0  44 May10 ?        00:00:07 [kworker/44:1H-kblockd]
+root         893       2  0     0     0  38 May10 ?        00:00:07 [kworker/38:1H-kblockd]
+root         916       2  0     0     0  11 May10 ?        00:00:10 [kworker/11:1H-kblockd]
+root         928       2  0     0     0  45 May10 ?        00:00:07 [kworker/45:1H-kblockd]
+root         939       2  0     0     0  47 May10 ?        00:00:06 [kworker/47:1H-kblockd]
+root         996       2  0     0     0  41 May10 ?        00:00:00 [scsi_eh_10]
+root         997       2  0     0     0  41 May10 ?        00:00:00 [scsi_tmf_10]
+root        1006       2  0     0     0  16 May10 ?        00:00:08 [kworker/16:1H-kblockd]
+root        1007       2  0     0     0  18 May10 ?        00:00:07 [kworker/18:1H-kblockd]
+root        1010       2  0     0     0  45 May10 ?        00:00:00 [poll_megasas10_]
+root        1011       2  0     0     0  33 May10 ?        00:00:06 [kworker/33:1H-kblockd]
+root        1013       2  0     0     0   9 May10 ?        00:00:11 [kworker/9:1H-kblockd]
+root        1016       2  0     0     0  13 May10 ?        00:00:09 [kworker/13:1H-kblockd]
+root        1018       2  0     0     0  39 May10 ?        00:00:06 [kworker/39:1H-kblockd]
+root        1044       2  0     0     0  41 May10 ?        00:00:06 [kworker/41:1H-kblockd]
+root        1045       2  0     0     0  44 May10 ?        00:09:47 [jbd2/sda2-8]
+root        1046       2  0     0     0  16 May10 ?        00:00:00 [ext4-rsv-conver]
+root        1061       2  0     0     0  19 May10 ?        00:00:08 [kworker/19:1H-kblockd]
+root        1094       2  0     0     0  10 May10 ?        00:00:09 [kworker/10:1H-kblockd]
+root        1113       2  0     0     0  21 May10 ?        00:00:08 [kworker/21:1H-kblockd]
+root        1125       2  0     0     0  46 May10 ?        00:00:06 [kworker/46:1H-kblockd]
+root        1127       2  0     0     0   1 May10 ?        00:00:09 [kworker/1:1H-kblockd]
+root        1131       2  0     0     0  31 May10 ?        00:00:07 [kworker/31:1H-kblockd]
+root        1148       2  0     0     0  43 May10 ?        00:00:06 [kworker/43:1H-kblockd]
+root        1158       2  0     0     0  27 May10 ?        00:00:08 [kworker/27:1H-kblockd]
+root        1159       2  0     0     0   5 May10 ?        00:00:10 [kworker/5:1H-kblockd]
+root        1170       2  0     0     0  17 May10 ?        00:00:09 [kworker/17:1H-kblockd]
+root        1189       2  0     0     0  15 May10 ?        00:00:09 [kworker/15:1H-kblockd]
+root        1321       2  0     0     0  23 May10 ?        00:00:08 [kworker/23:1H-kblockd]
+root        1323       2  0     0     0  25 May10 ?        00:00:06 [kworker/25:1H-kblockd]
+root        1324       2  0     0     0  29 May10 ?        00:00:07 [kworker/29:1H-kblockd]
+root        1327       2  0     0     0   3 May10 ?        00:00:11 [kworker/3:1H-kblockd]
+root        1345       2  0     0     0  26 May10 ?        00:00:08 [kworker/26:1H-kblockd]
+root        1349       2  0     0     0  30 May10 ?        00:00:10 [kworker/30:1H-kblockd]
+root        1363       2  0     0     0  35 May10 ?        00:00:07 [kworker/35:1H-kblockd]
+root        1367       2  0     0     0  42 May10 ?        00:00:07 [kworker/42:1H-kblockd]
+root        1375       2  0     0     0  22 May10 ?        00:00:08 [kworker/22:1H-kblockd]
+root        1376       2  0     0     0   8 May10 ?        00:00:10 [kworker/8:1H-kblockd]
+root        1399       2  0     0     0  34 May10 ?        00:00:08 [kworker/34:1H-kblockd]
+root        1412       2  0     0     0  37 May10 ?        00:00:06 [kworker/37:1H-kblockd]
+root        1416       2  0     0     0  14 May10 ?        00:00:08 [kworker/14:1H-kblockd]
+root        1449       2  0     0     0  12 May10 ?        00:00:08 [kworker/12:1H-kblockd]
+root        1501       2  0     0     0   8 May10 ?        00:00:00 [jbd2/sda5-8]
+root        1502       2  0     0     0   0 May10 ?        00:00:00 [ext4-rsv-conver]
+earlyoom    1523       1  0   689  2064   6 May10 ?        00:10:43 /usr/bin/earlyoom -r 0 -m 4 -M 409600 --prefer ^(Web Content|Isolated Web Co)$ --avoid ^(dnf|packagekitd|gnome-shell|gnome-session-c|gnome-session-b|lightdm|sddm|sddm-helper|gdm|gdm-wayland-ses|gdm-session-wor|gdm-x-session|Xorg|Xwayland|systemd|systemd-logind|dbus-daemon|dbus-broker|cinnamon|cinnamon-sessio|kwin_x11|kwin_wayland|plasmashell|ksmserver|plasma_session|startplasma-way|xfce4-session|mate-session|marco|lxqt-session|openbox|cryptsetup)$
+root        1532       1  0 19830  2196  47 May10 ?        01:05:02 /usr/sbin/irqbalance --foreground
+root        1534       1  0   691  1724  39 May10 ?        00:00:00 /usr/sbin/mcelog --daemon --foreground
+polkitd     1537       1  0 800015 39584 18 May10 ?        01:38:42 /usr/lib/polkit-1/polkitd --no-debug
+root        1538       1  0   678  1204  26 May10 ?        00:06:12 gpm -m /dev/input/mice -t exps2
+rtkit       1560       1  0 38494  2324   7 May10 ?        00:02:11 /usr/libexec/rtkit-daemon
+root        1562       1  0  2946  2796  21 May10 ?        00:00:01 /usr/sbin/smartd -n -q never --capabilities=mail
+root        1569       1  0  4408  3312  22 May10 ?        00:13:07 /usr/lib/systemd/systemd-machined
+systemd+    1571       1  0  6270  8548  20 May10 ?        00:09:38 /usr/lib/systemd/systemd-resolved
+root        1572       1  0 98833  6096  23 May10 ?        00:02:17 /usr/libexec/udisks2/udisksd
+root        1573       1  0 116756 2484  16 May10 ?        00:00:00 /usr/sbin/abrtd -d -s
+dbus        1576       1  0  3604  6200  27 May10 ?        00:01:09 /usr/bin/dbus-broker-launch --scope system --audit
+dbus        1595    1576  0  4415 10824  26 May10 ?        00:28:45 dbus-broker --log 4 --controller 9 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+root        1604       2  0     0     0  20 May10 ?        00:00:07 [kworker/20:1H-kblockd]
+root        1609       1  0 245341 33504 44 May10 ?        00:17:06 /usr/bin/abrt-dump-journal-core -D -T -f -e
+root        1610       1  0 246385 17084 46 May10 ?        00:13:59 /usr/bin/abrt-dump-journal-oops -fxtD
+root        1611       1  2 527048 35284 41 May10 ?        5-20:19:10 /usr/sbin/rpc.gssd
+root        1614       1  0 242360 17244 42 May10 ?        00:12:59 /usr/bin/abrt-dump-journal-xorg -fxtD
+root        1799       1  0 115510 6016  43 May10 ?        00:27:15 /usr/libexec/accounts-daemon
+root        1801       1  0  7424  9688   6 May10 ?        00:10:03 /usr/lib/systemd/systemd-logind
+colord      1847       1  0 271520 11072 23 May10 ?        00:00:02 /usr/libexec/colord
+root        1882       1  0 11361  1656   3 May10 ?        00:01:39 /usr/libexec/postfix/master -w
+postfix     1884    1882  0 14343  3160  23 May10 ?        00:00:21 qmgr -l -t unix -u
+root        1943       1  0 79161  6180  44 May10 ?        00:00:56 /usr/sbin/ModemManager
+root        1963       1  0 226025 11064 16 May10 ?        00:23:49 /usr/sbin/NetworkManager --no-daemon
+rpcuser     3227       1  0  2413  1688  36 May10 ?        00:00:00 /usr/sbin/rpc.statd
+rpc         3875       1  0  3261  2076  16 May10 ?        00:00:12 /usr/bin/rpcbind -w -f
+root        3995       2  0     0     0  26 May10 ?        00:00:00 [nfsiod]
+root        4000       2  0     0     0  39 May10 ?        00:00:00 [lockd]
+root        4007       1  0   848   636  26 May10 ?        00:00:00 /usr/sbin/atd -f
+root        4009       1  0 132187 7344   9 May10 ?        00:00:01 /usr/sbin/gdm
+root        4033    4009  0 101483 3272  37 May10 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm         4053       1  0  5528  8700  18 May10 ?        00:02:43 /usr/lib/systemd/systemd --user
+gdm         4054    4053  0 31883   352  21 May10 ?        00:00:00 (sd-pam)
+gdm         4079    4033  0 93707  2036   6 May10 tty1     00:00:00 /usr/libexec/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         4081    4053  0  3556  5256  34 May10 ?        00:00:02 /usr/bin/dbus-broker-launch --scope user
+gdm         4086    4081  0  1753  1776  43 May10 ?        00:00:03 dbus-broker --log 4 --controller 10 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+gdm         4088    4079  0  1616   128  41 May10 tty1     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         4089    4088  0  2468  2460  41 May10 tty1     00:00:05 dbus-daemon --nofork --print-address 4 --session
+gdm         4092    4088  0 184557 4476  10 May10 tty1     00:00:42 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+dnsmasq     4247       1  0  2510  1596   0 May10 ?        00:02:36 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root        4248    4247  0  2503   108   1 May10 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+gdm         4268    4092  0 1633492 99188 26 May10 tty1    02:08:38 /usr/bin/gnome-shell
+gdm         4365       1  0 77345  2140  24 May10 tty1     00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm         4370    4365  0  5106  1272   9 May10 tty1     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 12 --address=unix:path=/run/user/42/at-spi/bus
+gdm         4538    4268  0 51008 12760  33 May10 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/42/.mutter-Xwaylandauth.SZ6TL1 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+root        4540       2  0     0     0  23 May10 ?        00:04:39 [NFSv4 callback]
+gdm         4774       1  0 112139 1104  32 May10 tty1     00:00:00 /usr/libexec/xdg-permission-store
+gdm         4784    4053  0 81458  6460   5 May10 ?        00:00:00 /usr/bin/pipewire
+gdm         4785    4053  0 136320 7180  17 May10 ?        00:03:53 /usr/bin/wireplumber
+gdm         4786    4053  0 63834  4876  13 May10 ?        00:00:00 /usr/bin/pipewire-pulse
+root        4803       1  0  3774  1760  36 May10 ?        00:00:31 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+gdm         4805       1  0 786664 3388   2 May10 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm         4807       1  0 40407  1976  15 May10 tty1     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         4810    4092  0 169927 5144   2 May10 tty1     00:04:22 /usr/libexec/gsd-sharing
+gdm         4813    4092  0 148435 6800  47 May10 tty1     00:00:00 /usr/libexec/gsd-wacom
+gdm         4817    4092  0 167364 10472 11 May10 tty1     00:00:49 /usr/libexec/gsd-color
+gdm         4819    4092  0 148266 8476  28 May10 tty1     00:00:00 /usr/libexec/gsd-keyboard
+gdm         4822    4092  0 115515 3784  19 May10 tty1     00:00:01 /usr/libexec/gsd-print-notifications
+gdm         4824    4092  0 167580 3112  27 May10 tty1     00:00:00 /usr/libexec/gsd-rfkill
+gdm         4828    4092  0 152784 4304   2 May10 tty1     00:06:41 /usr/libexec/gsd-smartcard
+gdm         4830    4092  0 135324 3384  12 May10 tty1     00:00:00 /usr/libexec/gsd-datetime
+gdm         4833    4092  0 184515 9728  39 May10 tty1     00:00:24 /usr/libexec/gsd-media-keys
+gdm         4834    4092  0 112185 2196  12 May10 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm         4837    4092  0 133071 2748  25 May10 tty1     00:00:00 /usr/libexec/gsd-sound
+gdm         4839    4092  0 130930 2408  44 May10 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+gdm         4841    4092  0 131592 4312  22 May10 tty1     00:24:21 /usr/libexec/gsd-housekeeping
+gdm         4843    4092  0 184287 8936  36 May10 tty1     00:00:24 /usr/libexec/gsd-power
+gdm         4968       1  0 148546 2000  10 May10 tty1     00:00:00 /usr/libexec/gsd-printer
+gdm         5159       1  0 805098 7712   4 May10 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+gdm         5186       1  0  2030  1168  37 May10 tty1     00:00:00 dbus-launch --autolaunch=bc9fe648fdd2427bb9c1cfdf04d4c716 --binary-syntax --close-stderr
+gdm         5188       1  0  5205  1964  20 May10 ?        00:00:04 /usr/bin/dbus-daemon --syslog-only --fork --print-pid 5 --print-address 7 --session
+gdm         5201       1  0 77235  2876  10 May10 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm         5206    5201  0  5106  1752  19 May10 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 12 --address=unix:path=/var/lib/gdm/.cache/at-spi/bus_1025
+postfix     5415    1882  0 14644  4600   9 May10 ?        00:00:05 tlsmgr -l -t unix -u
+das463     54833 3070680  0 59023  4972  26 Oct23 pts/172  00:00:00 -bash
+qnm481     62780       1  0  5536 13780  12 Nov04 ?        00:00:40 /usr/lib/systemd/systemd --user
+qnm481     62880   62780  0 51156  8500  33 Nov04 ?        00:00:00 (sd-pam)
+qnm481     64275       1  0 58378  4384   9 Nov04 ?        00:00:00 tmux -L LAB
+qnm481     64276   64275  0 59821 11332   9 Nov04 pts/155  00:00:00 -bash
+qnm481     64492   64276  0 180897 154316 1 Nov04 pts/155  00:00:03 /usr/local/anaconda3/bin/python3.9 /usr/local/anaconda3/bin/jupyter-lab --port 5559
+qnm481     64529   64492  0 58909 10604   9 Nov04 pts/155  00:00:00 links file:///student/qnm481/.local/share/jupyter/runtime/jpserver-64492-open.html
+root       77981       2  0     0     0   4 May11 ?        00:00:00 [xfsalloc]
+root       77982       2  0     0     0   8 May11 ?        00:00:00 [xfs_mru_cache]
+root       77996       2  0     0     0  44 May11 ?        00:00:00 [jfsIO]
+root       77997       2  0     0     0   0 May11 ?        00:00:00 [jfsCommit]
+root       77998       2  0     0     0  10 May11 ?        00:00:00 [jfsCommit]
+root       77999       2  0     0     0   6 May11 ?        00:00:00 [jfsCommit]
+root       78000       2  0     0     0   4 May11 ?        00:00:00 [jfsCommit]
+root       78001       2  0     0     0   8 May11 ?        00:00:00 [jfsCommit]
+root       78002       2  0     0     0  36 May11 ?        00:00:00 [jfsCommit]
+root       78003       2  0     0     0  22 May11 ?        00:00:00 [jfsCommit]
+root       78004       2  0     0     0  38 May11 ?        00:00:00 [jfsCommit]
+root       78005       2  0     0     0  40 May11 ?        00:00:00 [jfsCommit]
+root       78006       2  0     0     0  44 May11 ?        00:00:00 [jfsCommit]
+root       78007       2  0     0     0  40 May11 ?        00:00:00 [jfsCommit]
+root       78008       2  0     0     0   0 May11 ?        00:00:00 [jfsCommit]
+root       78009       2  0     0     0   6 May11 ?        00:00:00 [jfsCommit]
+root       78010       2  0     0     0   8 May11 ?        00:00:00 [jfsCommit]
+root       78011       2  0     0     0   4 May11 ?        00:00:00 [jfsCommit]
+root       78012       2  0     0     0  22 May11 ?        00:00:00 [jfsCommit]
+root       78013       2  0     0     0  36 May11 ?        00:00:00 [jfsCommit]
+root       78014       2  0     0     0  40 May11 ?        00:00:00 [jfsCommit]
+root       78015       2  0     0     0  38 May11 ?        00:00:00 [jfsCommit]
+root       78016       2  0     0     0  44 May11 ?        00:00:00 [jfsCommit]
+root       78017       2  0     0     0   0 May11 ?        00:00:00 [jfsCommit]
+root       78018       2  0     0     0   6 May11 ?        00:00:00 [jfsCommit]
+root       78019       2  0     0     0   4 May11 ?        00:00:00 [jfsCommit]
+root       78020       2  0     0     0   8 May11 ?        00:00:00 [jfsCommit]
+root       78021       2  0     0     0  22 May11 ?        00:00:00 [jfsCommit]
+root       78022       2  0     0     0  42 May11 ?        00:00:00 [jfsCommit]
+root       78023       2  0     0     0  42 May11 ?        00:00:00 [jfsCommit]
+root       78024       2  0     0     0  10 May11 ?        00:00:00 [jfsCommit]
+root       78025       2  0     0     0  36 May11 ?        00:00:00 [jfsCommit]
+root       78026       2  0     0     0  42 May11 ?        00:00:00 [jfsCommit]
+root       78027       2  0     0     0   8 May11 ?        00:00:00 [jfsCommit]
+root       78028       2  0     0     0  44 May11 ?        00:00:00 [jfsCommit]
+root       78029       2  0     0     0   0 May11 ?        00:00:00 [jfsCommit]
+root       78030       2  0     0     0   6 May11 ?        00:00:00 [jfsCommit]
+root       78031       2  0     0     0   4 May11 ?        00:00:00 [jfsCommit]
+root       78032       2  0     0     0  22 May11 ?        00:00:00 [jfsCommit]
+root       78033       2  0     0     0  10 May11 ?        00:00:00 [jfsCommit]
+root       78034       2  0     0     0   0 May11 ?        00:00:00 [jfsCommit]
+root       78035       2  0     0     0  36 May11 ?        00:00:00 [jfsCommit]
+root       78036       2  0     0     0  44 May11 ?        00:00:00 [jfsCommit]
+root       78037       2  0     0     0   6 May11 ?        00:00:00 [jfsCommit]
+root       78038       2  0     0     0  10 May11 ?        00:00:00 [jfsCommit]
+root       78039       2  0     0     0  22 May11 ?        00:00:00 [jfsCommit]
+root       78040       2  0     0     0   8 May11 ?        00:00:00 [jfsCommit]
+root       78041       2  0     0     0  42 May11 ?        00:00:00 [jfsCommit]
+root       78042       2  0     0     0   4 May11 ?        00:00:00 [jfsCommit]
+root       78043       2  0     0     0   4 May11 ?        00:00:00 [jfsCommit]
+root       78044       2  0     0     0   0 May11 ?        00:00:00 [jfsCommit]
+root       78045       2  0     0     0  44 May11 ?        00:00:00 [jfsSync]
+root       84053       1  0 56111  2084  11 Oct25 ?        00:00:03 /usr/sbin/crond -n
+systemd+   84054       1  0  6164  5800  45 Oct25 ?        00:31:23 /usr/lib/systemd/systemd-oomd
+ejm249    141289 2551843  0 59252   680  25 Sep16 pts/54   00:00:00 -bash
+kel681    187274       1  0  5508  9176  29 May12 ?        00:02:44 /usr/lib/systemd/systemd --user
+kel681    187278  187274  0 50704   592  14 May12 ?        00:00:00 (sd-pam)
+kel681    188877       1  0  1950   608  38 May12 ?        00:00:00 ssh-agent -s
+root      228097       1  0 112298 3664  31 Jul27 ?        00:00:17 /usr/libexec/upowerd
+anv309    276073 3239387  0 58992  4804  36 Oct11 pts/116  00:00:00 -bash
+gqf783    353917       1  0  5248  8988   0 Oct25 ?        00:01:01 /usr/lib/systemd/systemd --user
+gqf783    354165  353917  0 50628  6432  42 Oct25 ?        00:00:00 (sd-pam)
+gqf783    379879       1  0 148009 2112  20 Oct25 ?        00:00:44 gpg-agent --homedir /student/gqf783/.gnupg --use-standard-socket --daemon
+gqf783    379881  379879  0 74370   200   9 Oct25 ?        00:00:00 scdaemon --multi-server
+vir138    438516 3035487  0 59024  8080   5 Nov19 pts/231  00:00:00 -bash
+vir138    438552 3035487  0 59293  8020   6 Nov19 pts/232  00:00:00 -bash
+vir138    438588 3035487  0 59024  8196  11 Nov19 pts/235  00:00:00 -bash
+vir138    438635  438516  0 63446 22236   7 Nov19 pts/231  00:00:00 vim vm.c
+vir138    439092  438588  0 63408 22332  37 Nov19 pts/235  00:00:01 vim trap.c
+vir138    444248  438552  0 63429 21984   8 Nov19 pts/232  00:00:00 vim sysproc.c
+jeh455    460043       1  0  5541 10312  24 Oct25 ?        00:01:01 /usr/lib/systemd/systemd --user
+jeh455    460137  460043  0 50725  6508  18 Oct25 ?        00:00:00 (sd-pam)
+ejm249    462228 2551843  0 58989   308  36 Sep16 pts/62   00:00:00 -bash
+vir138    475181 3035487  0 59293  8216  20 Nov19 pts/251  00:00:00 -bash
+vir138    475224 3035487  0 59299  8120   0 Nov19 pts/252  00:00:00 -bash
+vir138    475262 3035487  0 59293  8104   8 Nov19 pts/253  00:00:00 -bash
+anv309    478456 3239387  0 58992  4852  26 Oct11 pts/115  00:00:00 -bash
+root      497881       1  0 113128 3488  20 Jul02 ?        00:00:50 /usr/libexec/power-profiles-daemon
+anv309    507036 3239387  0 58992  4812   0 Oct12 pts/110  00:00:00 -bash
+vir138    515217  475262  0 63451 22216  14 Nov19 pts/253  00:00:02 vim trap.c
+vir138    523600  475224  0 63436 21972  12 Nov19 pts/252  00:00:00 vim vm.c
+vir138    528784  475181  0 63437 22152  25 Nov19 pts/251  00:00:00 vim kalloc.c
+vir138    529313 3035487  0 59293  8080  32 Nov19 pts/223  00:00:00 -bash
+vir138    529363 3035487  0 59024  8012  22 Nov19 pts/229  00:00:00 -bash
+vir138    529399 3035487  0 59293  8172  10 Nov19 pts/237  00:00:00 -bash
+vir138    535334  529399  0 63429 22204   1 Nov19 pts/237  00:00:01 vim trap.c
+vir138    541670 3035487  0 59024  7912   3 Nov19 pts/216  00:00:00 -bash
+vir138    542142 3035487  0 59024  8216   5 Nov19 pts/218  00:00:00 -bash
+vir138    542180 3035487  0 59024  8100  25 Nov19 pts/238  00:00:00 -bash
+vir138    554145 3035487  0 59024  8048  35 Nov19 pts/222  00:00:00 -bash
+vir138    554183 3035487  0 59024  8112  35 Nov19 pts/230  00:00:00 -bash
+vir138    554226 3035487  0 59024  8248   3 Nov19 pts/236  00:00:00 -bash
+vir138    554317  554145  0 63446 22280  13 Nov19 pts/222  00:00:00 vim vm.c
+root      559283       1  0 82878  8068  33 Oct13 ?        00:00:58 /usr/sbin/cupsd -l
+root      559469       1  0 66319 23960  37 Oct13 ?        00:00:00 /usr/bin/python3 /usr/bin/salt-minion
+root      559484  559469  0 210263 62568 15 Oct13 ?        00:36:38 /usr/bin/python3 /usr/bin/salt-minion MultiMinionProcessManager MinionProcessManager
+8292374   564700       1  0  5528  7884  43 May23 ?        00:02:45 /usr/lib/systemd/systemd --user
+8292374   564720  564700  0 50732   188  22 May23 ?        00:00:00 (sd-pam)
+8292374   565002       1  0 56329  1320  41 May23 ?        00:00:05 tmux
+8292374   565003  565002  0 59614   252  26 May23 pts/27   00:00:00 -bash
+8292374   565053  565002  0 58987    12  27 May23 pts/28   00:00:00 -bash
+krb951    568020       1  0  5528  8480  31 May19 ?        00:02:44 /usr/lib/systemd/systemd --user
+krb951    568023  568020  0 50716   564  26 May19 ?        00:00:00 (sd-pam)
+krb951    569723       1  0  1952   244  19 May19 ?        00:00:00 ssh-agent -s
+ejm249    591032 2551843  0 59253  5252  18 Sep16 pts/65   00:00:00 -bash
+8292374   601207  565053  0 63354    24  46 May23 pts/28   00:00:00 vim stack.h
+8292374   601962  565002  0 58987   136   3 May23 pts/5    00:00:00 -bash
+qdf029    604186 4010761  0  4932  4992   5 Nov20 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+qdf029    604203  604186  0  1732  1392  43 Nov20 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+nrpe      608028       1  0  1982   728  14 Aug03 ?        00:00:14 /usr/sbin/nrpe -c /etc/nagios/nrpe.cfg -f
+vir138    660608 3035487  0 59293  8232   5 Nov20 pts/58   00:00:00 -bash
+vir138    660645 3035487  0 59293  8248  26 Nov20 pts/159  00:00:00 -bash
+vir138    660681 3035487  0 59024  8232  29 Nov20 pts/184  00:00:00 -bash
+vir138    664643 3035487  0 59024  8112   0 Nov20 pts/210  00:00:00 -bash
+vir138    692459  664643  0 63441 22228   6 Nov20 pts/210  00:00:02 vim vm.c
+vir138    725850  660681  0 63441 22124  45 Nov20 pts/184  00:00:00 vim trap.c
+vir138    726719  660645  0 63436 22244   9 Nov20 pts/159  00:00:00 vim proc.c
+vir138    745975 3035487  0 59024  8144  18 Nov20 pts/227  00:00:00 -bash
+vir138    746025 3035487  0 59024  8044  14 Nov20 pts/244  00:00:00 -bash
+vir138    746061 3035487  0 59024  7928  38 Nov20 pts/245  00:00:00 -bash
+vir138    746097 3035487  0 59024  8208  16 Nov20 pts/247  00:00:00 -bash
+vir138    755464  746025  0 63462 22520   2 Nov20 pts/244  00:00:08 vim trap.c
+jak260    765504 1980162  0 59025  8096  27 Nov20 pts/249  00:00:00 -bash
+jak260    765543 1980162  0 59025  8116  17 Nov20 pts/250  00:00:00 -bash
+8292374   767803  565002  0 58987   128  46 May24 pts/12   00:00:00 -bash
+8292374   767982  565002  0 58987  2840  18 May24 pts/13   00:00:00 -bash
+8292374   768054  767803  0 63389 11108  34 May24 pts/12   00:00:00 vim stack.cc
+8292374   768087  767982  0 63400 11136   7 May24 pts/13   00:00:00 vim stack.h
+8292374   769157  565002  0 58987  3868  20 May24 pts/17   00:00:00 -bash
+8292374   769232  769157  0 63336 11048  26 May24 pts/17   00:00:00 vim main.cc
+8292374   774584  565002  0 58987  3660  42 May24 pts/0    00:00:00 -bash
+jak260    775760 1980162  0 59025  8248  34 Nov20 pts/204  00:00:00 -bash
+jak260    776722 1980162  0 59025  8104  12 Nov20 pts/46   00:00:00 -bash
+vir138    777322  746097  0 63430 22208  16 Nov20 pts/247  00:00:00 vim vm.c
+vir138    777743  745975  0 63431 22292  22 Nov20 pts/227  00:00:00 vim proc.c
+8292374   782336  565003  0 63336 10828  11 May24 pts/27   00:00:00 vim stack.cc
+anv309    789569 3239387  0 58992  4804  47 Oct14 pts/142  00:00:00 -bash
+anv309    804328 3239387  0 59025  4944  46 Oct21 pts/140  00:00:00 -bash
+8292374   822328  601962  0 63331 11136  35 May24 pts/5    00:00:00 vim main.cc
+ejm249    880420  141289  0 66711 12036  16 Sep16 pts/54   00:00:00 vim list.c
+ejm249    886568 2551843  0 59252  4204  24 Sep20 pts/56   00:00:00 -bash
+anv309    888649 3239387  0 59025  4496   6 Oct25 pts/182  00:00:00 -bash
+anv309    905768 3239387  0 58992  4800  28 Oct12 pts/132  00:00:00 -bash
+anv309    908659 3239387  0 59025  4504  33 Oct25 pts/191  00:00:00 -bash
+pcp       929870       1  0  4229  7260  30 Nov21 ?        00:00:01 /usr/libexec/pcp/bin/pmcd -A
+root      929874  929870  0  4233  7276  34 Nov21 ?        00:00:00 /var/lib/pcp/pmdas/root/pmdaroot
+root      929875  929874  0  4125  7292  34 Nov21 ?        00:00:00 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+root      929877  929874  0  4044  6688  36 Nov21 ?        00:00:00 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+root      929878  929874  0  4201  7556  10 Nov21 ?        00:00:13 /var/lib/pcp/pmdas/linux/pmdalinux
+root      929879  929874  0  4036  6520  34 Nov21 ?        00:00:00 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+pcp       930123       1  0  4155  8064  26 Nov21 ?        00:00:01 /usr/bin/pmie -b -F -P -l /var/log/pcp/pmie/tux6/pmie.log -c config.default
+pcp       930127       1  0  4000  3760  24 Nov21 ?        00:00:00 /usr/libexec/pcp/bin/pmpause
+dmr942    942027       1  0 58819  4924   2 Sep25 ?        00:00:14 tmux
+dmr942    942029  942027  0 59252  1788   6 Sep25 pts/52   00:00:00 -bash
+jak260    944007 1980162  0 59025  8160   3 Nov21 pts/239  00:00:00 -bash
+jak260    944047 1980162  0 59025  8136   1 Nov21 pts/246  00:00:00 -bash
+jak260    944083 1980162  0 59025  8168   1 Nov21 pts/248  00:00:00 -bash
+jak260    944963  944007  0 63668 23268   5 Nov21 pts/239  00:00:00 vim CMPT332.a3.fall2022.html
+kel681    946700  187274  0  5761  5668  23 May14 ?        00:00:02 /usr/bin/dbus-broker-launch --scope user
+kel681    946710  946700  0  1754  1104  39 May14 ?        00:00:03 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+root      947202       1  0 11387 12764   6 Nov21 ?        00:00:00 sshd: dwm138 [priv]
+dwm138    947211  947202  0 11387  7516  26 Nov21 ?        00:00:04 sshd: dwm138@pts/254
+dwm138    947219  947211  0 59023  8268  35 Nov21 pts/254  00:00:00 -bash
+jak260    952888  944083  0 63428 22160   3 Nov21 pts/248  00:00:00 vim kernel/vm.c
+root      955538       1  0 62286  7844  22 Nov21 ?        00:00:00 /usr/sbin/xrdp-sesman --nodaemon
+root      955539       1  0 58853  8168  16 Nov21 ?        00:00:00 /usr/sbin/xrdp --nodaemon
+vir138    956457 3035487  0 58992  4876  17 Oct15 pts/118  00:00:00 -bash
+vir138    956544 3035487  0 58992  4816   5 Oct15 pts/125  00:00:00 -bash
+clb135    957250       1  0  5523 13704  36 Nov21 ?        00:00:18 /usr/lib/systemd/systemd --user
+clb135    957308  957250  0 51156  8508   8 Nov21 ?        00:00:00 (sd-pam)
+clb135    958275  957250  0 108773 12364 22 Nov21 ?        00:00:00 /usr/bin/pipewire
+clb135    958276  957250  0 120257 16044 46 Nov21 ?        00:00:18 /usr/bin/wireplumber
+clb135    958277  957250  0 63232  9156   6 Nov21 ?        00:00:00 /usr/bin/pipewire-pulse
+clb135    958336       1  0 183180 79080 32 Nov21 ?        00:00:38 /usr/bin/python3 /bin/dnfdragora-updater
+clb135    958337       1  0 112581 5160  47 Nov21 ?        00:00:00 /usr/libexec/geoclue-2.0/demos/agent
+vir138    960161 3035487  0 59024  8076   7 Nov21 pts/259  00:00:00 -bash
+vir138    960210 3035487  0 59024  8100  13 Nov21 pts/260  00:00:00 -bash
+vir138    960263 3035487  0 59024  8252  11 Nov21 pts/261  00:00:00 -bash
+vir138    960319 3035487  0 59293  8112  40 Nov21 pts/262  00:00:00 -bash
+clb135    961304  957250  0  4903  4824  30 Nov21 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+clb135    961308  961304  0  1764  2752  40 Nov21 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138    962515  960161  0 63445 22240  26 Nov21 pts/259  00:00:01 vim trap.c
+6490525   964537       1  0  5538  7724  34 May14 ?        00:02:45 /usr/lib/systemd/systemd --user
+6490525   964573  964537  0 50312   396  42 May14 ?        00:00:00 (sd-pam)
+vir138    970708  960263  0 63430 22288  35 Nov21 pts/261  00:00:02 vim vm.c
+vir138    981025  960319  0 55767  3360  40 Nov21 pts/262  00:00:00 /bin/bash ./debug.bash A3
+vir138    981026  981025  0 946473 16140 42 Nov21 pts/262  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+vir138    982612  960319  0 55767  3384  38 Nov21 pts/262  00:00:00 /bin/bash ./debug.bash A3
+vir138    982613  982612  0 946575 15648 42 Nov21 pts/262  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+vir138    982722  960319  0 55767  3356  44 Nov21 pts/262  00:00:00 /bin/bash ./debug.bash A3
+vir138    982723  982722  0 946575 15488 46 Nov21 pts/262  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+jeh455    982772       1  0 55767   360  27 Oct25 ?        00:00:00 sh /student/jeh455/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/jeh455/.vscode-server/.d045a5eda657f4d7b676dedbfa7aab8207f8a075.token
+jeh455    982781  982772  0 232479 61916 15 Oct25 ?        00:01:49 /student/jeh455/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node /student/jeh455/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/jeh455/.vscode-server/.d045a5eda657f4d7b676dedbfa7aab8207f8a075.token
+jeh455    982881  982781  0 156126 43992 33 Oct25 ?        00:01:07 /student/jeh455/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node /student/jeh455/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/bootstrap-fork --type=ptyHost --logsPath /student/jeh455/.vscode-server/data/logs/20221025T145601
+vir138    984805  960210  0 63431 22068  31 Nov21 pts/260  00:00:00 vim trap.c
+anv309    989062 3239387  0 59025  4940  45 Oct20 pts/134  00:00:00 -bash
+vir138    996059 3035487  0 59293  8164  22 Nov21 pts/241  00:00:00 -bash
+vir138    996095 3035487  0 59024  8312  36 Nov21 pts/258  00:00:00 -bash
+vir138    996131 3035487  0 59024  7916   5 Nov21 pts/267  00:00:00 -bash
+vir138    996167 3035487  0 59293  8248  16 Nov21 pts/268  00:00:00 -bash
+vir138    996627  996059  0 55767  3440   1 Nov21 pts/241  00:00:00 /bin/bash ./debug.bash A3
+vir138    996628  996627  0 946656 16712  3 Nov21 pts/241  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+dts487    996789 3043760  0  4931  1880   4 Oct02 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+vir138    997071 3035244  0  4931  1852  20 Oct02 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+mlh767    997077 3002901  0  4932  1964  34 Oct02 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+vir138    997293  996131  0 995711 45852 27 Nov21 pts/267  00:00:00 gdb kernel
+vir138    997609  996059  0 995711 46804  3 Nov21 pts/241  00:00:00 gdb
+vir138    997728  996059  0 995711 46712 36 Nov21 pts/241  00:00:00 gdb
+dts487    998819  996789  0  1732  1176  44 Oct02 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+mlh767    998865  997077  0  1732  1080  20 Oct02 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138    998867  997071  0  1732  1164  24 Oct02 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138   1000637  996167  0 55767  3528  30 Nov21 pts/268  00:00:00 /bin/bash ./debug.bash A3
+vir138   1000638 1000637  0 946760 16544  8 Nov21 pts/268  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+6490525  1000887       1  0  1987   764  11 May14 ?        00:00:00 ssh-agent -s
+6490525  1011941       1  0  1952     4  27 May14 ?        00:00:00 ssh-agent -s
+6490525  1012423       1  0  1987   160   1 May14 ?        00:00:00 ssh-agent
+anv309   1021895 3239387  0 58992  4812   9 Oct11 pts/100  00:00:00 -bash
+6490525  1033536       1  0  1987   564   7 May14 ?        00:00:00 ssh-agent -s
+vir138   1043351  996095  0 63416 22320  16 Nov21 pts/258  00:00:02 vim trap.c
+vir138   1052467  996131  0 63427 22208  20 Nov21 pts/267  00:00:00 vim proc.c
+mlh767   1060040       1  0 55767   740  45 Oct23 ?        00:00:00 sh /student/mlh767/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/mlh767/.vscode-server/.d045a5eda657f4d7b676dedbfa7aab8207f8a075.token
+mlh767   1060050 1060040  0 233466 67540 43 Oct23 ?        00:03:23 /student/mlh767/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node /student/mlh767/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/mlh767/.vscode-server/.d045a5eda657f4d7b676dedbfa7aab8207f8a075.token
+mlh767   1060095 1060050  0 156113 44568 23 Oct23 ?        00:01:12 /student/mlh767/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node /student/mlh767/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/out/bootstrap-fork --type=ptyHost --logsPath /student/mlh767/.vscode-server/data/logs/20221023T014709
+vir138   1060102 3035487  0 59293  8184  44 Nov21 pts/221  00:00:00 -bash
+vir138   1060150 3035487  0 59293  8140  28 Nov21 pts/233  00:00:00 -bash
+vir138   1060186 3035487  0 59293  8080  40 Nov21 pts/266  00:00:00 -bash
+vir138   1060224 3035487  0 59024  8068  24 Nov21 pts/270  00:00:00 -bash
+das463   1067573 3070680  0 59023  4468  29 Oct25 pts/16   00:00:00 -bash
+das463   1067698 3070680  0 59023  4536   9 Oct25 pts/176  00:00:00 -bash
+das463   1070607 1067698  0 63440 11792   5 Oct25 pts/176  00:00:00 vim monitor.c
+das463   1073955 1067573  0 63406 11788  41 Oct25 pts/16   00:00:00 vim reader-writer.c
+das463   1074677 1067698  0 63427 11688  42 Oct25 pts/176  00:00:00 vim reader-writer-monitor.c
+das463   1109152 1067698  0 63433 11728  38 Oct25 pts/176  00:00:00 vim monitor.c
+vir138   1114945 1060186  0 55767  3444  14 Nov21 pts/266  00:00:00 /bin/bash ./debug.bash A3
+vir138   1114947 1114945  0 946743 17424 16 Nov21 pts/266  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+vir138   1116035 1060150  0 57891  4484  19 Nov21 pts/233  00:00:00 make qemu-gdb
+vir138   1116056 1116035  0 382645 38728 40 Nov21 pts/233  00:00:17 qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 1 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0 -S -gdb tcp::26674
+vir138   1132188 3035487  0 59024  8208  34 Nov21 pts/285  00:00:00 -bash
+vir138   1132237 3035487  0 59024  8324  10 Nov21 pts/286  00:00:00 -bash
+vir138   1132273 3035487  0 59293  8192  10 Nov21 pts/287  00:00:00 -bash
+vir138   1132356 1132188  0 55767  3400  28 Nov21 pts/285  00:00:00 /bin/bash ./debug.bash A3
+vir138   1132357 1132356  0 946466 15500 10 Nov21 pts/285  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+vir138   1133842 1132273  0 55767  3372  36 Nov21 pts/287  00:00:00 /bin/bash ./debug.bash A3
+vir138   1133843 1133842  0 946761 17132 36 Nov21 pts/287  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+vir138   1134092 3035487  0 59024  8208   8 Nov21 pts/288  00:00:00 -bash
+vir138   1134128 3035487  0 59024  8208  26 Nov21 pts/289  00:00:00 -bash
+vir138   1134165 3035487  0 59024  8064  26 Nov21 pts/290  00:00:00 -bash
+vir138   1134212 1134092  0 55767  3500  14 Nov21 pts/288  00:00:00 /bin/bash ./debug.bash A3
+vir138   1134213 1134212  0 946612 16480 18 Nov21 pts/288  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+anv309   1139084 3239387  0 58992  4792  28 Oct13 pts/121  00:00:00 -bash
+vir138   1140401 1134128  0 55767  3404  32 Nov21 pts/289  00:00:00 /bin/bash ./debug.bash A3
+vir138   1140402 1140401  0 946611 16424 30 Nov21 pts/289  00:00:00 /student/cmpt332/riscv/bin/riscv64-unknown-linux-gnu-gdb kernel/kernel
+vir138   1149097 3035487  0 59293  8204  24 Nov21 pts/206  00:00:00 -bash
+chrony   1150010       1  0 21290  1720  30 Oct18 ?        00:00:11 /usr/sbin/chronyd -F 2
+vir138   1179223 3035487  0 59565  9220  16 Nov21 pts/242  00:00:00 -bash
+vir138   1187554 1149097  0 63481 22260  24 Nov21 pts/206  00:00:00 vim handin.bash
+anv309   1210699 3239387  0 58992  4800  10 Oct13 pts/124  00:00:00 -bash
+jeh455   1220274  460043  0  4932  3756  32 Oct26 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+jeh455   1220394 1220274  0  1732   908  26 Oct26 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138   1265904 3035487  0 59024  4968  47 Oct19 pts/61   00:00:00 -bash
+vir138   1269443 3035487  0 59024  5020  17 Oct19 pts/66   00:00:00 -bash
+vir138   1269723 3035487  0 59024  4976  23 Oct19 pts/70   00:00:00 -bash
+vir138   1272090 1269443  0 63433 12156  19 Oct19 pts/66   00:00:00 vim s-chat.c
+root     1288969       1  0  3907  9296  18 Nov22 ?        00:00:05 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+jep243   1296461 2621157  0  4931  2156  42 Sep17 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+jep243   1296478 1296461  0  1732   264  12 Sep17 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138   1324695 3035487  0 59024  4948  27 Oct19 pts/149  00:00:00 -bash
+vir138   1324958 3035487  0 59024  4968   2 Oct19 pts/151  00:00:00 -bash
+vir138   1325171 3035487  0 59024  4956   9 Oct19 pts/153  00:00:00 -bash
+vir138   1325424 1324958  0 63441 12452  28 Oct19 pts/151  00:00:04 vim s-chat.c
+root     1339965       1  0 84307  6336  10 Sep27 ?        02:34:36 /usr/sbin/gssproxy -D
+ejm249   1382515  462228  0 63341 11096  38 Sep16 pts/62   00:00:00 vim Makefile
+anv309   1391516 3239387  0 58992  4836  12 Oct14 pts/219  00:00:00 -bash
+vok135   1502595       1  0  5538  7940   3 Sep22 ?        00:01:45 /usr/lib/systemd/systemd --user
+vok135   1502662 1502595  0 51090  4920  23 Sep22 ?        00:00:00 (sd-pam)
+anv309   1519461 3239387  0 58992  4824  47 Oct12 pts/130  00:00:00 -bash
+vir138   1536631 3035487  0 59024  4952  42 Oct19 pts/154  00:00:00 -bash
+vir138   1536737 3035487  0 59024  4948  11 Oct19 pts/157  00:00:00 -bash
+vir138   1537093 3035487  0 59024  4952  17 Oct19 pts/158  00:00:00 -bash
+vir138   1537392 1536737  0 63474 12476  32 Oct19 pts/157  00:00:13 vim s-chat.c
+anv309   1554204 3239387  0 59025  4956  38 Oct20 pts/171  00:00:00 -bash
+vir138   1561800 3035487  0 59293  8244  41 Nov22 pts/265  00:00:00 -bash
+vir138   1561836 3035487  0 59293  8260  19 Nov22 pts/271  00:00:00 -bash
+vir138   1561872 3035487  0 59024  8216  26 Nov22 pts/272  00:00:00 -bash
+ejm249   1564491  886568  0 1001504 34312 24 Sep20 pts/56  00:00:00 gdb ./program
+arr455   1570177 3889453  0 225336 11240 13 Oct02 ?        00:00:51 /usr/libexec/xdg-desktop-portal
+arr455   1570181 3889453  0 167771 4604   5 Oct02 ?        00:00:00 /usr/libexec/xdg-document-portal
+arr455   1570184 3889453  0 112147 3552  37 Oct02 ?        00:00:00 /usr/libexec/xdg-permission-store
+root     1570190 1570181  0  2930   480  32 Oct02 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/524991/doc
+arr455   1571046 3889453  0 65939  5016  12 Oct02 ?        00:00:00 /usr/bin/pipewire
+arr455   1571047 3889453  0 119582 12768  6 Oct02 ?        00:01:49 /usr/bin/wireplumber
+arr455   1571063 3889453  0 113823 5224  19 Oct02 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+vir138   1571282 3035487  0 59024  8052   7 Nov22 pts/243  00:00:00 -bash
+vir138   1571735 1571282  0 63447 22468  23 Nov22 pts/243  00:00:06 vim sysfile.c
+vir138   1579291 1561800  0 63431 22264  47 Nov22 pts/265  00:00:01 vim sysfile.c
+6490525  1581316  964537  0  5870  6028  45 May15 ?        00:00:02 /usr/bin/dbus-broker-launch --scope user
+6490525  1581337 1581316  0  1759   940  36 May15 ?        00:00:03 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138   1581914 1561836  0 63440 22168  25 Nov22 pts/271  00:00:00 vim symtest.c
+vir138   1583040 1561872  0 57890  4304  26 Nov22 pts/272  00:00:00 make qemu
+vir138   1583066 1583040 99 429609 167656 40 Nov22 pts/272 20-00:07:55 qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 3 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+vok135   1589472       1  0 58394  1480  27 Sep22 ?        00:00:00 tmux
+vok135   1589473 1589472  0 59252   276  12 Sep22 pts/79   00:00:00 -bash
+anv309   1599607 3239387  0 59025  4948  26 Oct20 pts/183  00:00:00 -bash
+ejm249   1606045 1564491  0   653    96   2 Sep20 pts/56   00:00:00 /student/ejm249/cmpt_332/labs/cmpt332-2022-group08/program
+vok135   1610845 1589472  0 58990   192  13 Sep22 pts/103  00:00:00 -bash
+vok135   1617419 1610845  0 63416  4080  13 Sep22 pts/103  00:00:00 vim questionOne.c
+ejm249   1620320 2551843  0 59254  5264   2 Sep20 pts/8    00:00:00 -bash
+dmr942   1625493  942027  0 59025  8272  21 Nov07 pts/170  00:00:00 -bash
+arr455   1627306 1668779  0 59239  7136  11 Oct02 pts/69   00:00:00 -bash
+anv309   1642190 3239387  0 58992  4856  39 Oct17 pts/73   00:00:00 -bash
+vok135   1662368 1589472  0 59252  4208  20 Sep22 pts/120  00:00:00 -bash
+arr455   1668779       1  0 58641  2820   8 Sep19 ?        00:00:08 tmux
+arr455   1668801 1668779  0 58989  3392   4 Sep19 pts/33   00:00:00 -bash
+gmj287   1679418       1  0  5542  8848  44 Jun19 ?        00:02:37 /usr/lib/systemd/systemd --user
+gmj287   1679439 1679418  0 50959   420  32 Jun19 ?        00:00:00 (sd-pam)
+vir138   1682439 1537093  0 56180  2072  18 Oct19 pts/158  00:00:00 man getaddrinfo
+vir138   1682449 1682439  0 55461   748  36 Oct19 pts/158  00:00:00 less
+vok135   1684599 1662368  0 63407 11192  20 Sep22 pts/120  00:00:00 vim test1.c
+anv309   1694677 3239387  0 58992  4824   6 Oct13 pts/148  00:00:00 -bash
+gmj287   1700384       1  0 1004840 10944 31 Jun19 ?       00:00:00 gdb ./bin/maing
+gmj287   1700607 1700384  0  1477    52   9 Jun19 ?        00:00:00 /student/gmj287/c214-a5/bin/maing
+root     1707205 1288969  0 11387 12752  22 Nov23 ?        00:00:00 sshd: dwm138 [priv]
+dwm138   1707242 1707205  0 11387  6868  26 Nov23 ?        00:00:03 sshd: dwm138@pts/126
+dwm138   1707249 1707242  0 59280  8192  21 Nov23 pts/126  00:00:00 -bash
+wxe465   1709335       1  0  5545 10564  44 Oct13 ?        00:01:16 /usr/lib/systemd/systemd --user
+wxe465   1709414 1709335  0 53264  8272  38 Oct13 ?        00:00:00 (sd-pam)
+8292374  1721401  564700  0  5063  2968  11 May27 ?        00:00:02 /usr/bin/dbus-broker-launch --scope user
+8292374  1721415 1721401  0  1759  1132  15 May27 ?        00:00:03 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138   1730248 3035487  0 58992  4888   0 Oct18 pts/133  00:00:00 -bash
+root     1745222       1  0 112207 2160  17 Jul13 ?        00:00:00 /usr/libexec/switcheroo-control
+krb951   1784640  568020  0  4930  2308  29 May21 ?        00:00:02 /usr/bin/dbus-broker-launch --scope user
+krb951   1784663 1784640  0  1761   308  39 May21 ?        00:00:03 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+anv309   1795677 3239387  0 59025  4944   8 Oct19 pts/163  00:00:00 -bash
+gdm      1797224    4053  0 113226   16  19 Jun05 ?        00:00:00 /usr/libexec/gvfsd
+gdm      1797238    4053  0 95024   368  33 Jun05 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/42/gvfs -f
+kel681   1799931  187274  0 113226   84   6 Jun05 ?        00:00:00 /usr/libexec/gvfsd
+kel681   1799973  187274  0 95024   636  32 Jun05 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/6941217/gvfs -f
+8292374  1801880  564700  0 113226   56  14 Jun05 ?        00:00:00 /usr/libexec/gvfsd
+8292374  1801903  564700  0 95024   620  31 Jun05 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/8292374/gvfs -f
+krb951   1802172  568020  0 113226  672  26 Jun05 ?        00:00:00 /usr/libexec/gvfsd
+6490525  1802182  964537  0 113226  656  26 Jun05 ?        00:00:00 /usr/libexec/gvfsd
+krb951   1802189  568020  0 95024   428  25 Jun05 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/7269487/gvfs -f
+6490525  1802195  964537  0 95024   376  30 Jun05 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/6490525/gvfs -f
+root     1803864 1288969  0 11387 12736  32 Nov23 ?        00:00:00 sshd: clb135 [priv]
+clb135   1803901 1803864  0 11645  8608   4 Nov23 ?        00:00:03 sshd: clb135@pts/281
+clb135   1803912 1803901  0 59023  7956  24 Nov23 pts/281  00:00:00 -bash
+clb135   1803982 1803912  0 60067  9316  22 Nov23 pts/281  00:00:00 ssh root@seker
+root     1812416 1288969  0 11387 12892  12 Nov23 ?        00:00:00 sshd: clb135 [priv]
+clb135   1812448 1812416  0 11387  7780  26 Nov23 ?        00:00:03 sshd: clb135@pts/283
+clb135   1812459 1812448  0 59023  8080   6 Nov23 pts/283  00:00:00 -bash
+clb135   1812634 1812459  0 59956  8424  34 Nov23 pts/283  00:00:00 ssh root@seker
+vir138   1819921 3035487  0 58992  4820  16 Oct18 pts/4    00:00:00 -bash
+vwg123   1872087       1  0  5542  8704   8 Sep15 ?        00:01:57 /usr/lib/systemd/systemd --user
+vwg123   1872129 1872087  0 50983  3336  17 Sep15 ?        00:00:00 (sd-pam)
+jeg312   1873482       1  0  5502 13660  38 Nov23 ?        00:00:12 /usr/lib/systemd/systemd --user
+jeg312   1873574 1873482  0 51156  8512  46 Nov23 ?        00:00:00 (sd-pam)
+jeg312   1878607       1  0 55377  1144  20 Nov23 ?        00:00:00 script asn6q2.log
+jeg312   1878609 1878607  0 58407  4536  24 Nov23 pts/276  00:00:00 bash -i
+root     1879147 1288969  0  8930 11808  29 Nov23 ?        00:00:00 sshd: root [priv]
+root     1879212       1  0  5245 12388  36 Nov23 ?        00:00:11 /usr/lib/systemd/systemd --user
+root     1879250 1879212  0 48896  8512  26 Nov23 ?        00:00:00 (sd-pam)
+root     1879486 1879147  0  8930  7056   4 Nov23 ?        00:00:00 sshd: root@pts/277
+root     1879495 1879486  0 56721  7852  41 Nov23 pts/277  00:00:00 -bash
+anv309   1889066 3239387  0 59025  4496   5 Oct27 pts/146  00:00:00 -bash
+anv309   1894154 3239387  0 59025  4492  27 Oct27 pts/156  00:00:00 -bash
+anv309   1910762 3239387  0 58992  4856   8 Oct17 pts/129  00:00:00 -bash
+vwg123   1949445       1  0 58385  1688   5 Sep15 ?        00:00:00 tmux
+vwg123   1949446 1949445  0 58990  3180  26 Sep15 pts/57   00:00:00 -bash
+vwg123   1949617 1949445  0 58990  4176   2 Sep15 pts/60   00:00:00 -bash
+anv309   1962482 3239387  0 58992  4808  39 Oct12 pts/117  00:00:00 -bash
+jak260   1970445       1  0  5537 10576  37 Oct20 ?        00:01:06 /usr/lib/systemd/systemd --user
+jak260   1970534 1970445  0 53264  8272  23 Oct20 ?        00:00:00 (sd-pam)
+jak260   1980162       1  0 59019  6332   2 Oct20 ?        00:00:24 tmux
+jak260   1980163 1980162  0 59025  5000  36 Oct20 pts/181  00:00:00 -bash
+jak260   1980257 1980162  0 59025  4972  16 Oct20 pts/185  00:00:00 -bash
+anv309   1984566 3239387  0 59025  4488   3 Oct27 pts/40   00:00:00 -bash
+mcb508   1999443       1  0  5540 10476  20 Oct27 ?        00:00:56 /usr/lib/systemd/systemd --user
+mcb508   1999524 1999443  0 51123  8388  42 Oct27 ?        00:00:00 (sd-pam)
+mcb508   2005950       1  0 58264   820  16 Oct27 ?        00:00:00 SCREEN -S run
+mcb508   2005951 2005950  0 58409   992  42 Oct27 pts/29   00:00:00 /bin/bash
+anv309   2007492 3239387  0 59025  4936   5 Oct19 pts/165  00:00:00 -bash
+anv309   2016875 3239387  0 58992  4856  28 Oct12 pts/119  00:00:00 -bash
+ejm249   2060883 2192755  0 225332 9420  41 Oct17 ?        00:00:35 /usr/libexec/xdg-desktop-portal
+ejm249   2060891 2192755  0 167771 4588  35 Oct17 ?        00:00:00 /usr/libexec/xdg-document-portal
+ejm249   2060894 2192755  0 112147 3636  37 Oct17 ?        00:00:00 /usr/libexec/xdg-permission-store
+root     2060899 2060891  0  2930   416  21 Oct17 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/3015785/doc
+ejm249   2061277 2192755  0 65939  2988  35 Oct17 ?        00:00:00 /usr/bin/pipewire
+ejm249   2061278 2192755  0 119577 11464 37 Oct17 ?        00:01:16 /usr/bin/wireplumber
+ejm249   2061306 2192755  0 113791 5184  27 Oct17 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+vir138   2095202 3035487  0 58992  4816   3 Oct18 pts/143  00:00:00 -bash
+vir138   2095305 3035487  0 58992  4816  31 Oct18 pts/144  00:00:00 -bash
+vir138   2095509 3035487  0 58992  4848  23 Oct18 pts/145  00:00:00 -bash
+vir138   2095761 2095202  0 63338 12020   7 Oct18 pts/143  00:00:00 vim Makefile
+anv309   2103250 3239387  0 58992  4800  40 Oct18 pts/147  00:00:00 -bash
+dts487   2114670 3043987  0 59024  4560   7 Oct28 pts/11   00:00:00 -bash
+dts487   2114710 3043987  0 59292  4560   7 Oct28 pts/25   00:00:00 -bash
+dts487   2114746 3043987  0 59025  4556   9 Oct28 pts/42   00:00:00 -bash
+dts487   2114830 2114670  0 63743 12604  34 Oct28 pts/11   00:00:01 vim mutex.c
+dts487   2115359 2114746  0 63772 12508  11 Oct28 pts/42   00:00:04 vim spinlock.c
+dts487   2123459 3043987  0 59025  4552  23 Oct28 pts/9    00:00:00 -bash
+dts487   2123544 2123459  0 63619 12172  23 Oct28 pts/9    00:00:01 vim sysproc.c
+vir138   2165232 3035487  0 59024  8144  11 Nov24 pts/278  00:00:00 -bash
+vir138   2165293 3035487  0 59024  8052  37 Nov24 pts/292  00:00:00 -bash
+vir138   2165337 3035487  0 59024  8228  11 Nov24 pts/293  00:00:00 -bash
+oxn954   2172953       1  0  5503 13484  36 Nov24 ?        00:00:10 /usr/lib/systemd/systemd --user
+anv309   2173036 3239387  0 58992  4840  11 Oct13 pts/137  00:00:00 -bash
+oxn954   2173052 2172953  0 51156  8512  47 Nov24 ?        00:00:00 (sd-pam)
+ejm249   2179679 2551843  0 59254  4864  34 Sep16 pts/50   00:00:00 -bash
+bos956   2180540       1  0  5539 10400   2 Oct14 ?        00:01:11 /usr/lib/systemd/systemd --user
+bos956   2180622 2180540  0 53264  8272   0 Oct14 ?        00:00:00 (sd-pam)
+oxn954   2186686       1  0 55377  1140  43 Nov24 ?        00:00:00 script
+oxn954   2186688 2186686  0 58139  4484  23 Nov24 pts/299  00:00:00 bash -i
+vir138   2187365 2165293  0 63460 22316  31 Nov24 pts/292  00:00:04 vim sysfile.c
+ejm249   2192755       1  0  5561  8636  38 Sep07 ?        00:02:06 /usr/lib/systemd/systemd --user
+ejm249   2192822 2192755  0 51025  2940  29 Sep07 ?        00:00:00 (sd-pam)
+bos956   2201727       1  0 876758 48452 26 Oct14 ?        00:00:09 /student/bos956/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/debugAdapters/bin/OpenDebugAD7
+vwg123   2212167 1872087  0  4933   636  30 Sep15 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+vwg123   2212177 2212167  0  1732   276  18 Sep15 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+vir138   2213744 2095305  0 63433 12236  35 Oct18 pts/144  00:00:01 vim monitor.c
+vir138   2218781 3035487  0 59024  8024  29 Nov24 pts/306  00:00:00 -bash
+vir138   2218824 3035487  0 59024  8056   7 Nov24 pts/313  00:00:00 -bash
+vir138   2218868 3035487  0 59024  8080  11 Nov24 pts/314  00:00:00 -bash
+dts487   2233766 3043987  0 59025  4564  41 Oct29 pts/71   00:00:00 -bash
+dts487   2233802 3043987  0 59025  4556  25 Oct29 pts/84   00:00:00 -bash
+dts487   2233838 3043987  0 59293  4564  37 Oct29 pts/136  00:00:00 -bash
+bwp265   2236291 2983938  0  4932  2076   4 Oct11 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+mam552   2236305 2702679  0  4931  2100  28 Oct11 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+bwp265   2236376 2236291  0  1732  1240   3 Oct11 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+mam552   2236414 2236305  0  1793  1152  15 Oct11 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+dts487   2237208 2233766  0 64561 16440  18 Oct29 pts/71   00:00:32 vim mutex.h
+vir138   2248985 2218824  0 63429 22128  41 Nov24 pts/313  00:00:01 vim symlinktest.c
+vir138   2249903 2218781  0 63446 22276  26 Nov24 pts/306  00:00:03 vim sysfile.c
+root     2251444       1  0  8521  6892   6 Oct29 ?        00:00:00 sshd: dmr942 [priv]
+dmr942   2251457 2251444  0 11399  5384  10 Oct29 ?        00:00:00 sshd: dmr942@pts/10
+dmr942   2251464 2251457  0 59285  4620   8 Oct29 pts/10   00:00:00 -bash
+dts487   2254038 2233838  0 64042 14256   8 Oct29 pts/136  00:00:03 vim proc.c
+vir138   2258784 3035487  0 59024  8084  29 Nov24 pts/324  00:00:00 -bash
+dts487   2274568 2233802  0 63790 12908  25 Oct29 pts/84   00:00:01 vim proc.h
+vir138   2278751 2218868  0 57890  4376  11 Nov24 pts/314  00:00:00 make qemu
+vir138   2278782 2278751 99 452482 168152 31 Nov24 pts/314 14-05:08:47 qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 3 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+nak877   2279893       1  0  5564 10508  39 Oct29 ?        00:00:52 /usr/lib/systemd/systemd --user
+nak877   2279949 2279893  0 51123  8388  33 Oct29 ?        00:00:00 (sd-pam)
+nak877   2280734       1  0 58653  4080  41 Oct29 ?        00:00:05 tmux
+nak877   2280735 2280734  0 59025  4540  23 Oct29 pts/48   00:00:00 -bash
+nak877   2280782 2280734  0 59025  4536  21 Oct29 pts/180  00:00:00 -bash
+nak877   2281232 2280735  0 63430 11892  23 Oct29 pts/48   00:00:01 vim udp.c
+nak877   2284232 2280782  0 56181  1684  20 Oct29 pts/180  00:00:00 man getaddrinfo
+nak877   2284242 2284232  0 55500   480   2 Oct29 pts/180  00:00:00 less
+dts487   2286975 3043987  0 59289  5580   1 Oct29 pts/188  00:00:00 -bash
+wxe465   2292562       1  0 876765 48680 19 Oct13 ?        00:00:09 /student/wxe465/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/debugAdapters/bin/OpenDebugAD7
+ejm249   2298432 2192755  0  4930  1496  35 Sep07 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+ejm249   2298433 2298432  0  1794  1020  15 Sep07 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+anv309   2308048 3239387  0 58992  4856  30 Oct17 pts/127  00:00:00 -bash
+root     2313909       1  0  5165   792  40 Jul05 ?        00:02:33 /var/ossec/bin/ossec-execd
+ossec    2313918       1  0 60735  3560  30 Jul05 ?        04:09:36 /var/ossec/bin/ossec-agentd
+root     2313940       1  0 63325  7344  35 Jul05 ?        07:18:01 /var/ossec/bin/ossec-syscheckd
+root     2313960       1  0 97323  3456  11 Jul05 ?        00:43:05 /var/ossec/bin/ossec-logcollector
+root     2313977       1  0 118133 27852 32 Jul05 ?        04:30:08 /var/ossec/bin/wazuh-modulesd
+anv309   2314963 3239387  0 59025  4932  16 Oct18 pts/150  00:00:00 -bash
+qnm481   2322201   62780  0  4902  5024  13 Nov08 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+qnm481   2322230 2322201  0  1732  1392  10 Nov08 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+mcb508   2322237 1999443  0  4931  4848   4 Nov08 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+mcb508   2322271 2322237  0  1732  1288  22 Nov08 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+dwm138   2337661       1  0  5256  6628  13 Aug29 ?        00:02:08 /usr/lib/systemd/systemd --user
+dwm138   2337665 2337661  0 50865   200  46 Aug29 ?        00:00:00 (sd-pam)
+root     2372664       1  0 67071  3692  44 Aug30 ?        00:01:21 /usr/sbin/sssd -i --logger=files
+root     2372666 2372664  0 71841 24784  34 Aug30 ?        00:44:31 /usr/libexec/sssd/sssd_be --domain default --uid 0 --gid 0 --logger=files
+root     2372667 2372664  0 76938 24936  36 Aug30 ?        00:37:52 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+root     2372668 2372664  0 68257 18820  36 Aug30 ?        00:04:24 /usr/libexec/sssd/sssd_pam --uid 0 --gid 0 --logger=files
+maf653   2387523       1  0  5487 13516  28 Nov24 ?        00:00:08 /usr/lib/systemd/systemd --user
+maf653   2387597 2387523  0 51156  8548   5 Nov24 ?        00:00:00 (sd-pam)
+maf653   2392832       1  0 55377  1140  31 Nov24 ?        00:00:00 script -f asn6q3.log
+maf653   2392834 2392832  0 58139  4424  25 Nov24 pts/295  00:00:00 bash -i
+anv309   2396509 3239387  0 59025  4936  27 Oct20 pts/164  00:00:00 -bash
+vok135   2429661 1502595  0  4930  1452  17 Sep28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+vok135   2429884 2429661  0  1732   268   5 Sep28 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+bem346   2430414 4080896  0  4930  1496  13 Sep28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+bem346   2430545 2430414  0  1732   268  44 Sep28 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+dmr942   2430597 3716185  0  4931  2548  37 Sep28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+arr455   2430629 3889453  0  4930  1044  15 Sep28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+dmr942   2430724 2430597  0  1732  1472  20 Sep28 ?        00:00:08 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+arr455   2430734 2430629  0  1794   804  44 Sep28 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+das463   2440275 3070680  0 59367  5420  18 Oct19 pts/141  00:00:00 -bash
+das463   2440886 3070680  0 59023  4972  40 Oct19 pts/168  00:00:00 -bash
+vir138   2450691 3035487  0 59024  4956   6 Oct18 pts/160  00:00:00 -bash
+vir138   2451003 3035487  0 59024  4948   0 Oct18 pts/161  00:00:00 -bash
+vir138   2451237 3035487  0 59024  4948   0 Oct18 pts/162  00:00:00 -bash
+vir138   2451528 2450691  0 63339 11988  32 Oct18 pts/160  00:00:00 vim Makefile
+vir138   2452329 2451003  0 63434 12100  38 Oct18 pts/161  00:00:00 vim monitor.c
+ssm259   2468430       1  0  5539  8620  36 Sep19 ?        00:01:53 /usr/lib/systemd/systemd --user
+ssm259   2468491 2468430  0 51090  2888  20 Sep19 ?        00:00:00 (sd-pam)
+das463   2480410 2440275  0 63419 12076  40 Oct19 pts/141  00:00:00 vim monitor.c
+ejm249   2499498 2551843  0 58990  4180  16 Sep15 pts/55   00:00:00 -bash
+ssm259   2539834       1  0 58233    52   3 Sep19 ?        00:00:00 SCREEN
+ssm259   2539835 2539834  0 58131   464   1 Sep19 pts/49   00:00:00 /bin/bash
+mam552   2545372 2702679  0 206896 10648 14 Oct30 ?        00:00:23 /usr/libexec/xdg-desktop-portal
+mam552   2545377 2702679  0 167771 4304   2 Oct30 ?        00:00:00 /usr/libexec/xdg-document-portal
+mam552   2545380 2702679  0 112147 3192  27 Oct30 ?        00:00:00 /usr/libexec/xdg-permission-store
+root     2545385 2545377  0  2930   124  15 Oct30 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/8190088/doc
+mam552   2545818 2702679  0 65939  4412   8 Oct30 ?        00:00:00 /usr/bin/pipewire
+mam552   2545819 2702679  0 119546 12472 16 Oct30 ?        00:00:53 /usr/bin/wireplumber
+mam552   2545835 2702679  0 113791 4740   6 Oct30 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+ejm249   2551843       1  0 58826  4316  16 Sep07 ?        00:00:25 tmux
+das463   2555427 2440886  0 63367 11764  46 Oct19 pts/168  00:00:00 vim m
+raa462   2557403       1  0  5538  8488  13 Sep01 ?        00:02:12 /usr/lib/systemd/systemd --user
+raa462   2557405 2557403  0 50865   276   2 Sep01 ?        00:00:00 (sd-pam)
+ejm249   2572193 2551843  0 58989    20  23 Sep07 pts/19   00:00:00 -bash
+arr455   2575821 1668779  0 58957  6072   1 Oct04 pts/7    00:00:00 -bash
+vir138   2597329 3035487  0 59025  8128   5 Nov10 pts/138  00:00:00 -bash
+vir138   2597368 3035487  0 59025  8032   9 Nov10 pts/177  00:00:00 -bash
+vir138   2597405 3035487  0 59025  8192   9 Nov10 pts/201  00:00:00 -bash
+vir138   2597441 2597329  0 63446 22240   9 Nov10 pts/138  00:00:00 vim proc.c
+jak260   2602242 1970445  0  4930  3880  29 Oct22 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+jak260   2602286 2602242  0  1732  1152  34 Oct22 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+jep243   2621157       1  0  5538  8796   0 Sep12 ?        00:02:04 /usr/lib/systemd/systemd --user
+jep243   2621212 2621157  0 50983  5716  46 Sep12 ?        00:00:00 (sd-pam)
+root     2639670 1288969  0 11386 12912   2 Nov25 ?        00:00:00 sshd: dwm138 [priv]
+dwm138   2639688 2639670  0 11386  7068  30 Nov25 ?        00:00:02 sshd: dwm138@pts/257
+dwm138   2639695 2639688  0 59357  8756  26 Nov25 pts/257  00:00:01 -bash
+jep243   2663824       1  0 58265   652  44 Sep12 ?        00:00:00 SCREEN
+jep243   2663825 2663824  0 58131   744  44 Sep12 pts/43   00:00:00 /bin/bash
+anv309   2666450 3239387  0 59025  4952  31 Oct23 pts/189  00:00:00 -bash
+anv309   2667087 3239387  0 59025  4980  17 Oct23 pts/193  00:00:00 -bash
+anv309   2667152 3239387  0 59025  4968   4 Oct23 pts/194  00:00:00 -bash
+anv309   2667207 3239387  0 59025  4920  31 Oct23 pts/195  00:00:00 -bash
+vir138   2683108 3035487  0 59024  8276  23 Nov25 pts/256  00:00:00 -bash
+vir138   2683144 3035487  0 59024  8188  11 Nov25 pts/263  00:00:00 -bash
+das463   2688560 2440886  0 63390 11460  14 Oct19 pts/168  00:00:00 vim monitor,c
+anv309   2689830 3239387  0 59025  4924  30 Oct23 pts/190  00:00:00 -bash
+aae055   2701850       1  0  5473 13644   7 Nov25 ?        00:00:05 /usr/lib/systemd/systemd --user
+aae055   2701925 2701850  0 51156  8588  45 Nov25 ?        00:00:00 (sd-pam)
+mam552   2702679       1  0  5552 10604  37 Oct08 ?        00:01:23 /usr/lib/systemd/systemd --user
+mam552   2702765 2702679  0 53200  8264  37 Oct08 ?        00:00:00 (sd-pam)
+aae055   2703337       1  0 55377  1140  21 Nov26 ?        00:00:00 script
+aae055   2703339 2703337  0 58139  4632  21 Nov26 pts/21   00:00:00 bash -i
+das463   2714161 2440275  0 1007079 72044 47 Oct19 pts/141 00:00:00 gdb ./lab4
+das463   2714279 2714161  0  4175  4484  15 Oct19 pts/141  00:00:00 /student/das463/cmpt-332/lab4/lab4
+oxn954   2725903 2172953  0  4930  4836   9 Nov26 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+oxn954   2725956 2725903  0  1732  1412  17 Nov26 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+aae055   2726129 2701850  0  4931  4848  37 Nov26 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+aae055   2726132 2726129  0  1732  1400  15 Nov26 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+jeg312   2726163 1873482  0  4930  4912  24 Nov26 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+maf653   2726180 2387523  0  4932  4928   3 Nov26 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+maf653   2726280 2726180  0  1732  1404  31 Nov26 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+jeg312   2726333 2726163  0  1732  1436   1 Nov26 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+anv309   2729609 3239387  0 58992  4804  44 Oct12 pts/152  00:00:00 -bash
+ejm249   2738109 2551843  0 58989    64  10 Sep08 pts/22   00:00:00 -bash
+ejm249   2742147 2551843  0 58989    92  32 Sep08 pts/23   00:00:00 -bash
+dts487   2747495 3043987  0 59025  4556  20 Oct31 pts/202  00:00:00 -bash
+dts487   2747570 3043987  0 59332  4876  24 Oct31 pts/203  00:00:02 -bash
+dts487   2747625 3043987  0 59375  5984   9 Oct31 pts/205  00:00:00 -bash
+dts487   2749553 3043987  0 59024  4560   5 Oct31 pts/207  00:00:00 -bash
+dts487   2749634 3043987  0 59292  4560   1 Oct31 pts/208  00:00:00 -bash
+dts487   2749670 3043987  0 59025  4548   3 Oct31 pts/209  00:00:00 -bash
+dts487   2756349 2749670  0 63831 13228  27 Oct31 pts/209  00:00:02 vim proc.h
+ejm249   2756363 2738109  0 63371  9108  10 Sep08 pts/22   00:00:00 vim Makefile
+dts487   2788465 3043987  0 59025  4556  11 Oct31 pts/224  00:00:00 -bash
+dts487   2788502 3043987  0 59292  4560  44 Oct31 pts/225  00:00:00 -bash
+dts487   2788538 3043987  0 59025  4560  33 Oct31 pts/226  00:00:00 -bash
+vir138   2819707 3035487  0 58958  5992   3 Oct04 pts/51   00:00:00 -bash
+vir138   2819744 3035487  0 59245  5968  26 Oct04 pts/86   00:00:00 -bash
+vir138   2819797 3035487  0 58958  5996  43 Oct04 pts/87   00:00:00 -bash
+vir138   2820437 2819797  0 63416 12328  28 Oct04 pts/87   00:00:04 vim partA4.c
+vir138   2843861 2819707  0 63416 12088   5 Oct04 pts/51   00:00:00 vim test_numprocs.c
+vir138   2863891 3035487  0 59024  4988  26 Oct19 pts/166  00:00:00 -bash
+vir138   2863984 3035487  0 59024  5000  34 Oct19 pts/167  00:00:00 -bash
+vir138   2864149 3035487  0 59024  4984  13 Oct19 pts/169  00:00:00 -bash
+vir138   2866124 3035487  0 59245  6044  36 Oct04 pts/37   00:00:00 -bash
+vir138   2866375 3035487  0 58958  5992  18 Oct04 pts/44   00:00:00 -bash
+vir138   2867014 2866375  0 63441 12396  20 Oct04 pts/44   00:00:01 vim test_numprocs.c
+anv309   2869520 3239387  0 59025  4916  47 Oct18 pts/108  00:00:00 -bash
+dts487   2875026 2749553  0 63635 12192  16 Oct31 pts/207  00:00:00 vim proc.c
+gdm      2883048       1  0 38983   496  23 Sep02 tty1     00:00:00 /usr/libexec/dconf-service
+dts487   2890297 2788465  0 63635 12384  12 Oct31 pts/224  00:00:00 vim test_synch.c
+dts487   2891638 2747495  0 63939 13776  19 Oct31 pts/202  00:00:21 vim proc.c
+dts487   2894823 2788502  0 63756 12248  41 Oct31 pts/225  00:00:00 vim proc.h
+dts487   2901354 2788538  0 63620 12152  13 Oct31 pts/226  00:00:01 vim proc.c
+raa462   2910930 2557403  0  4930   844  14 Sep02 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+raa462   2911245 2910930  0  1732   244   3 Sep02 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+daemon   2944516       1  0 79872  1680   2 Sep29 ?        00:00:48 /usr/sbin/rngd -f -x pkcs11 -x nist -D daemon:daemon
+vir138   2947119 2863984  0 63417 12268  31 Oct19 pts/167  00:00:00 vim s-chat.c
+vir138   2949888 2863891  0 55770   724  26 Oct19 pts/166  00:00:00 man 2 read
+vir138   2949898 2949888  0 55461   772  46 Oct19 pts/166  00:00:00 less
+bwp265   2983938       1  0  5539 10568  45 Oct05 ?        00:01:26 /usr/lib/systemd/systemd --user
+bwp265   2984000 2983938  0 51151  8256  10 Oct05 ?        00:00:00 (sd-pam)
+mlh767   3002901       1  0  5538 10400  11 Sep29 ?        00:01:32 /usr/lib/systemd/systemd --user
+mlh767   3002990 3002901  0 51090  8248   2 Sep29 ?        00:00:00 (sd-pam)
+mlh767   3003083       1  0 55758  1576   5 Sep29 ?        00:00:00 sh /student/mlh767/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/mlh767/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+mlh767   3003093 3003083  0 233286 65832  0 Sep29 ?        00:06:31 /student/mlh767/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /student/mlh767/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/mlh767/.vscode-server/.74b1f979648cc44d385a2286793c226e611f59e7.token
+mlh767   3003130 3003093  0 156056 44656 16 Sep29 ?        00:02:17 /student/mlh767/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node /student/mlh767/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/bootstrap-fork --type=ptyHost --logsPath /student/mlh767/.vscode-server/data/logs/20220929T142305
+vir138   3035244       1  0  5538 10296  20 Sep29 ?        00:01:34 /usr/lib/systemd/systemd --user
+vir138   3035319 3035244  0 51090  8248   7 Sep29 ?        00:00:00 (sd-pam)
+vir138   3035487       1  0 63400 23928  18 Sep29 ?        00:10:34 tmux
+vir138   3035488 3035487  0 58958  5772  45 Sep29 pts/30   00:00:00 -bash
+vir138   3035532 3035487  0 58958  5756  45 Sep29 pts/47   00:00:00 -bash
+dts487   3043760       1  0  5538 10388   7 Sep29 ?        00:01:35 /usr/lib/systemd/systemd --user
+dts487   3043825 3043760  0 51090  8248  41 Sep29 ?        00:00:00 (sd-pam)
+dts487   3043987       1  0 59532  6032   6 Sep29 ?        00:01:16 tmux
+dts487   3043988 3043987  0 58959  5808  27 Sep29 pts/35   00:00:00 -bash
+dts487   3044026 3043987  0 58992  5868   3 Sep29 pts/63   00:00:00 -bash
+dts487   3044063 3043987  0 58959  5776  27 Sep29 pts/76   00:00:00 -bash
+dts487   3044102 3043988  0 63581 12688   5 Sep29 pts/35   00:00:01 vim makefile
+dmr942   3064205  942027  0 58989  5812   3 Sep29 pts/20   00:00:00 -bash
+dmr942   3066805  942027  0 58989  5824   9 Sep29 pts/36   00:00:00 -bash
+wxe465   3069733 1709335  0  4930  2064  40 Oct15 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+wxe465   3069816 3069733  0  1732  1232  17 Oct15 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+bos956   3069852 2180540  0  4930  2044  18 Oct15 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+bos956   3069884 3069852  0  1732  1196  12 Oct15 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+das463   3070038       1  0  5251  9068  34 Oct18 ?        00:01:08 /usr/lib/systemd/systemd --user
+das463   3070126 3070038  0 53264  8272  37 Oct18 ?        00:00:00 (sd-pam)
+das463   3070680       1  0 59929  7820  27 Oct18 ?        00:00:59 tmux
+das463   3070681 3070680  0 59023  4944  24 Oct18 pts/131  00:00:00 -bash
+dmr942   3070686 3066805  0 64512 15916   9 Sep29 pts/36   00:00:00 vim PartC.design.txt
+dmr942   3070691 3070686  0 2855633 52988 15 Sep29 ?       00:30:30 node --no-warnings /student/dmr942/.vim/pack/coc/start/coc.nvim/build/index.js
+das463   3071000 3070680  0 59371  5424  41 Oct18 pts/139  00:00:00 -bash
+anv309   3075183 3239387  0 58992  4816   3 Oct11 pts/96   00:00:00 -bash
+anv309   3075448 3239387  0 58992  4856  15 Oct11 pts/97   00:00:00 -bash
+das463   3076007 3071000  0 63386 11804  41 Oct18 pts/139  00:00:00 vim monitor.c
+vir138   3083133 3035487  0 58958  5992  45 Oct05 pts/67   00:00:00 -bash
+vir138   3083171 3035487  0 58958  6008  43 Oct05 pts/72   00:00:00 -bash
+vir138   3101539 3083133  0 63423 12192  23 Oct05 pts/67   00:00:02 vim partA2.c
+vir138   3101565 3083171  0 63462 12312  23 Oct05 pts/72   00:00:06 vim Lab3.synchproblem.c
+vir138   3106726 3035487  0 59024  8336  36 Nov27 pts/264  00:00:00 -bash
+vir138   3107223 3035487  0 59024  8236  30 Nov27 pts/273  00:00:00 -bash
+vir138   3107742 3107223  0 63446 22492  14 Nov27 pts/273  00:00:07 vim sysfile.c
+vir138   3114881 3035487  0 59024  8328  29 Nov27 pts/274  00:00:00 -bash
+vir138   3114921 3035487  0 59024  7896  20 Nov27 pts/279  00:00:00 -bash
+vir138   3116190 3035487  0 59024  8296  32 Nov27 pts/282  00:00:00 -bash
+vir138   3116249 3035487  0 59024  8136  32 Nov27 pts/128  00:00:00 -bash
+vir138   3116302 3035487  0 59293  8048  32 Nov27 pts/284  00:00:00 -bash
+vir138   3116338 3035487  0 59024  8144  46 Nov27 pts/291  00:00:00 -bash
+vir138   3138676 3035487  0 58958  5936  12 Oct05 pts/88   00:00:00 -bash
+vir138   3138719 3035487  0 58958  5980  19 Oct05 pts/89   00:00:00 -bash
+vir138   3139024 3138676  0 63417 12172  18 Oct05 pts/88   00:00:00 vim Lab3.synchproblem.c
+anv309   3139337 3239387  0 59256  5944  17 Oct11 pts/101  00:00:00 -bash
+bwp265   3171529       1  0 1002102 58144 20 Oct05 ?       00:00:06 gdb mytestlist
+raa462   3176848       1  0 59985   960  14 Sep02 ?        00:00:00 ssh -L 3300:localhost:3000 root@seker ssh -L 3000:localhost:3000 -N amt-cs
+raa462   3180004       1  0 59948   988   0 Sep02 ?        00:00:00 ssh -L 3300:localhost:3000 root@seker ssh -L 3000:localhost:3000 -N amt-cs
+bwp265   3181975 3171529  0   657   164   0 Oct05 ?        00:00:00 /student/bwp265/cmpt332-2022-group35/mytestlist
+raa462   3183612       1  0 59948   988  36 Sep02 ?        00:00:00 ssh -L 3300:localhost:3000 root@seker ssh -L 3000:localhost:3000 -N amt-cs
+das463   3204494 3070681  0 66558 18676  14 Oct18 pts/131  00:00:01 vim monitor.c
+root     3224607       2  0     0     0  36 Nov28 ?        00:00:00 [iprt-VBoxWQueue]
+root     3224608       2  0     0     0  10 Nov28 ?        00:00:00 [iprt-VBoxTscThread]
+root     3233687 1288969  0 11387 12812  12 Nov28 ?        00:00:00 sshd: dwm138 [priv]
+dwm138   3233705 3233687  0 11387  6876  15 Nov28 ?        00:00:00 sshd: dwm138@pts/3
+dwm138   3233707 3233705  0 59023  8112  31 Nov28 pts/3    00:00:00 -bash
+root     3234515       1  0 197402 319256 40 Jul16 ?       15:50:51 /usr/lib/systemd/systemd-journald
+root     3234517       1  0 10122  5808  39 Jul16 ?        00:11:41 /usr/lib/systemd/systemd-udevd
+anv309   3239021       1  0  5255  9168  17 Oct06 ?        00:01:24 /usr/lib/systemd/systemd --user
+anv309   3239078 3239021  0 51151  8256  39 Oct06 ?        00:00:00 (sd-pam)
+anv309   3239387       1  0 60011  4168   1 Oct06 ?        00:04:00 tmux
+dwm138   3245572  947219  0 79762 20744  12 Nov28 pts/254  00:00:10 alpine -passfile /faculty/dwm138/.pine-passfile
+vir138   3255653 3035487  0 58958  5988  15 Oct06 pts/111  00:00:00 -bash
+vir138   3255691 3035487  0 59517  7084  26 Oct06 pts/112  00:00:00 -bash
+vir138   3255729 3035487  0 59239  7080  16 Oct06 pts/113  00:00:00 -bash
+root     3271473 1288969  0 11387 12972  19 Nov28 ?        00:00:00 sshd: dwm138 [priv]
+dwm138   3271481 3271473  0 11387  6988  10 Nov28 ?        00:00:00 sshd: dwm138@pts/2
+dwm138   3271483 3271481  0 59280  8216  15 Nov28 pts/2    00:00:00 -bash
+root     3282081       1  0 1308962 105972 1 Nov28 ?       00:01:48 /usr/sbin/rsyslogd -n
+anv309   3282799 3239387  0 58956  5956  47 Oct06 pts/74   00:00:00 -bash
+anv309   3283144 3239387  0 58956  6012  36 Oct06 pts/80   00:00:00 -bash
+anv309   3284311 3239387  0 58956  5988  11 Oct06 pts/81   00:00:00 -bash
+vir138   3301803 3035487  0 58958  5968  14 Sep30 pts/75   00:00:00 -bash
+vir138   3301880 3035487  0 58958  6004   1 Sep30 pts/77   00:00:00 -bash
+vir138   3302060 3035487  0 58958  6060  14 Sep30 pts/78   00:00:00 -bash
+arr455   3314775 1668779  0 59661  4980  36 Sep20 pts/59   00:00:00 -bash
+anv309   3328779 3239387  0 58956  5984   6 Oct06 pts/82   00:00:00 -bash
+vir138   3336148 3035487  0 59239  7100  12 Oct06 pts/114  00:00:00 -bash
+das463   3341711 3070680  0 59023  4940  32 Oct19 pts/122  00:00:00 -bash
+das463   3341831 3070680  0 59023  4948  30 Oct19 pts/135  00:00:00 -bash
+vir138   3345669 3035487  0 58958  5996  38 Oct06 pts/123  00:00:00 -bash
+mam552   3348041       1  0 995729 36092 32 Oct08 ?        00:00:00 gdb ./testlist-Linuxx86_64
+vir138   3350416 3336148  0 63478 12360  14 Oct06 pts/114  00:00:00 vim tar.bash
+anv309   3371154 3239387  0 58956  6004  26 Oct06 pts/98   00:00:00 -bash
+root     3397625       2  0     0     0  37 Nov28 ?        00:00:00 [kworker/37:0-rcu_gp]
+anv309   3402082 3239387  0 58992  4812   8 Oct17 pts/109  00:00:00 -bash
+das463   3414701 3341831  0 63426 12108   4 Oct19 pts/135  00:00:00 vim monitor.c
+anv309   3430352 3239387  0 58992  4808   6 Oct15 pts/34   00:00:00 -bash
+root     3457306       1  0  8522  7372  41 Oct24 ?        00:00:00 sshd: dmr942 [priv]
+dmr942   3457837 3457306  0 11399  5228  28 Oct24 ?        00:00:00 sshd: dmr942@pts/179
+dmr942   3457847 3457837  0 59285  4976  36 Oct24 pts/179  00:00:00 -bash
+dmr942   3466508 3457847  0 59916  2976  22 Oct24 pts/179  00:00:00 ssh cmpt332-arm2
+ssm259   3470737 2468430  0  4902   276  26 Sep22 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+ssm259   3470751 3470737  0  1732   272  44 Sep22 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+anv309   3474146 3239387  0 58956  6004   2 Oct09 pts/39   00:00:00 -bash
+anv309   3476008 3239387  0 58956  5948   0 Oct07 pts/64   00:00:00 -bash
+root     3476551       2  0     0     0  19 08:37 ?        00:00:00 [kworker/19:1-events]
+root     3477719 1288969  0  8507 12476  34 08:55 ?        00:00:00 sshd: krl872 [priv]
+krl872   3477801       1  0  5291 12504   0 08:55 ?        00:00:00 /usr/lib/systemd/systemd --user
+krl872   3477886 3477801  0 51258  8620  14 08:55 ?        00:00:00 (sd-pam)
+krl872   3478085 3477719  0 11386  8808  10 08:55 ?        00:00:15 sshd: krl872@pts/31
+krl872   3478223 3478085  0 59287  9240  38 08:55 pts/31   00:00:00 -bash
+root     3478288 1288969  0  8507 12504   1 08:56 ?        00:00:00 sshd: krl872 [priv]
+krl872   3478296 3478288  0 11387  8708  30 08:56 ?        00:00:00 sshd: krl872@notty
+krl872   3478308 3478296  0  6342  5708  38 08:56 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     3484016 1288969  0 11386 12812  10 09:12 ?        00:00:00 sshd: dle792 [priv]
+dle792   3484071       1  0  5175 12256  40 09:12 ?        00:00:00 /usr/lib/systemd/systemd --user
+dle792   3484118 3484071  0 51258  8620  46 09:12 ?        00:00:00 (sd-pam)
+dle792   3484351 3484016  0 11386  7492  14 09:12 ?        00:00:00 sshd: dle792@pts/200
+dle792   3484488 3484351  0 59759  4240  25 09:12 pts/200  00:00:00 -csh
+root     3484728 1288969  0 11387 12920   4 09:12 ?        00:00:00 sshd: dle792 [priv]
+dle792   3484736 3484728  0 11387  7760  14 09:12 ?        00:00:00 sshd: dle792@pts/212
+dle792   3484744 3484736  0 60008  4448  12 09:12 pts/212  00:00:00 -csh
+root     3487809       2  0     0     0  17 09:23 ?        00:00:00 [kworker/17:1-cgroup_destroy]
+root     3487959 1288969  0 11388 12824   6 09:25 ?        00:00:00 sshd: xdt709 [priv]
+xdt709   3488436       1  0  5178 12424  12 09:25 ?        00:00:00 /usr/lib/systemd/systemd --user
+xdt709   3488511 3488436  0 51258  8620  16 09:25 ?        00:00:00 (sd-pam)
+xdt709   3488715 3487959  0 11388  7084  10 09:25 ?        00:00:00 sshd: xdt709@pts/228
+xdt709   3488839 3488715  0 58995  7912  17 09:25 pts/228  00:00:00 -bash
+root     3488844       2  0     0     0  41 09:25 ?        00:00:00 [kworker/41:1-rcu_par_gp]
+root     3491370       2  0     0     0  18 09:31 ?        00:00:00 [kworker/u96:0-ext4-rsv-conversion]
+root     3492828       2  0     0     0  35 09:46 ?        00:00:00 [kworker/35:0-mm_percpu_wq]
+root     3492889       2  0     0     0  23 09:46 ?        00:00:00 [kworker/23:1-rcu_gp]
+root     3493581       2  0     0     0   1 09:50 ?        00:00:00 [kworker/1:0-cgroup_destroy]
+root     3494616 1288969  0 11386 13008  23 09:59 ?        00:00:00 sshd: rpc619 [priv]
+root     3494646       2  0     0     0  11 10:00 ?        00:00:00 [kworker/11:2-events]
+rpc619   3494719       1  0  5178 12384  26 10:00 ?        00:00:00 /usr/lib/systemd/systemd --user
+rpc619   3494795 3494719  0 51258  8620  45 10:00 ?        00:00:00 (sd-pam)
+rpc619   3495009 3494616  0 11416  7952  23 10:00 ?        00:00:00 sshd: rpc619@notty
+rpc619   3495137 3495009  0 55833  3740   9 10:00 ?        00:00:00 bash
+root     3496045       2  0     0     0  38 10:01 ?        00:00:00 [kworker/38:1-events]
+root     3496549       2  0     0     0  28 10:01 ?        00:00:00 [kworker/28:1-events]
+anv309   3496669 3239387  0 58956  5972   8 Oct07 pts/105  00:00:00 -bash
+root     3497041 1288969  0  8507 12308   4 10:02 ?        00:00:00 sshd: nyg894 [priv]
+nyg894   3497109       1  0  5178 12240  47 10:02 ?        00:00:00 /usr/lib/systemd/systemd --user
+nyg894   3497186 3497109  0 51258  8620   1 10:02 ?        00:00:00 (sd-pam)
+nyg894   3497386 3497041  0 11386  8372  18 10:02 ?        00:00:00 sshd: nyg894@pts/187
+nyg894   3497438 3497386  0 59028  8152  28 10:02 pts/187  00:00:00 -bash
+krl872   3498290 3477801  0  4902  4840  31 10:12 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+krl872   3498291 3498290  0  1281  2964   0 10:12 ?        00:00:00 dbus-broker --log 4 --controller 12 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+krl872   3498293 3477801  0 225299 17892 40 10:12 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+krl872   3498298 3477801  0 167771 6944  28 10:12 ?        00:00:00 /usr/libexec/xdg-document-portal
+krl872   3498302 3477801  0 112147 6016   0 10:12 ?        00:00:00 /usr/libexec/xdg-permission-store
+root     3498307 3498298  0  2930  1944  21 10:12 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/7279408/doc
+root     3498651       2  0     0     0  14 10:12 ?        00:00:00 [kworker/14:0-events]
+krl872   3498821 3477801  0 65906  7592  15 10:12 ?        00:00:00 /usr/bin/pipewire
+krl872   3498822 3477801  0 120244 16024 24 10:12 ?        00:00:00 /usr/bin/wireplumber
+krl872   3498839 3477801  0 113790 9508  21 10:12 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+root     3499448       2  0     0     0  36 10:15 ?        00:00:00 [kworker/36:2-events]
+root     3499588       2  0     0     0   3 10:19 ?        00:00:00 [kworker/3:0-events]
+root     3501288       2  0     0     0   8 10:26 ?        00:00:00 [kworker/8:1-mm_percpu_wq]
+root     3502277       2  0     0     0   4 10:29 ?        00:00:00 [kworker/4:2-events]
+root     3502948 1288969  0 11387 13024  20 10:40 ?        00:00:00 sshd: rpc619 [priv]
+rpc619   3502956 3502948  0 11431  7880  33 10:41 ?        00:00:00 sshd: rpc619@notty
+rpc619   3502967 3502956  0 55833  3876  31 10:41 ?        00:00:00 bash
+root     3503403       2  0     0     0   0 10:47 ?        00:00:00 [kworker/0:1-rcu_gp]
+das463   3503470 3341831  0 63419 12136   8 Oct19 pts/135  00:00:00 vim monitor.c
+root     3503530       2  0     0     0  19 10:47 ?        00:00:00 [kworker/19:0-cgroup_destroy]
+root     3504577       2  0     0     0  43 10:49 ?        00:00:00 [kworker/43:0-cgroup_destroy]
+hze083   3504651       1  0  5180 12416  27 10:49 ?        00:00:00 /usr/lib/systemd/systemd --user
+hze083   3504745 3504651  0 51258  8620   0 10:49 ?        00:00:00 (sd-pam)
+root     3505077 1288969  0  8507 12508   6 10:49 ?        00:00:00 sshd: hze083 [priv]
+hze083   3505087 3505077  0 11388  8512   6 10:49 ?        00:00:00 sshd: hze083@pts/269
+hze083   3505098 3505087  0 59280  8180  37 10:49 pts/269  00:00:00 -bash
+root     3505103       2  0     0     0  18 10:49 ?        00:00:00 [kworker/18:1-mm_percpu_wq]
+root     3506105       2  0     0     0  47 11:00 ?        00:00:00 [kworker/47:1-mm_percpu_wq]
+root     3506194       2  0     0     0  39 11:01 ?        00:00:00 [kworker/39:2-mm_percpu_wq]
+root     3506202       2  0     0     0  24 11:02 ?        00:00:00 [kworker/24:1-mm_percpu_wq]
+root     3506244 1288969  0  8510 12532   8 11:04 ?        00:00:00 sshd: aad921 [priv]
+aad921   3506296       1  0  5180 12128  27 11:04 ?        00:00:00 /usr/lib/systemd/systemd --user
+aad921   3506358 3506296  0 51258  8620  15 11:04 ?        00:00:00 (sd-pam)
+root     3506590       2  0     0     0  44 11:04 ?        00:00:00 [kworker/44:1-events]
+root     3506591       2  0     0     0  46 11:04 ?        00:00:00 [kworker/46:2-mm_percpu_wq]
+aad921   3506726 3506244  0 11388  8316   6 11:04 ?        00:00:00 sshd: aad921@notty
+aad921   3506744 3506726  0  5792  5664  18 11:04 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     3506986       2  0     0     0  29 11:04 ?        00:00:00 [kworker/29:1-mm_percpu_wq]
+root     3506990       2  0     0     0   7 11:04 ?        00:00:00 [kworker/7:1-rcu_gp]
+root     3509032 1288969  0 11388 12724  10 11:09 ?        00:00:00 sshd: xdt709 [priv]
+xdt709   3509064 3509032  0 11388  6740  26 11:09 ?        00:00:00 sshd: xdt709@pts/45
+xdt709   3509072 3509064  0 59281  8012  10 11:09 pts/45   00:00:00 -bash
+root     3509124       2  0     0     0  27 11:09 ?        00:00:00 [kworker/27:1-rcu_gp]
+root     3509324       2  0     0     0  15 11:10 ?        00:00:00 [kworker/15:2-cgroup_destroy]
+root     3509822       2  0     0     0  43 11:11 ?        00:00:00 [kworker/43:1-cgroup_destroy]
+root     3510303       2  0     0     0  46 11:13 ?        00:00:00 [kworker/46:1]
+root     3511833       2  0     0     0  27 11:22 ?        00:00:00 [kworker/27:2-rcu_par_gp]
+root     3511839       2  0     0     0  31 11:23 ?        00:00:01 [kworker/u98:2-flush-8:0]
+mge314   3511924       1  0  5179 12288  37 11:23 ?        00:00:00 /usr/lib/systemd/systemd --user
+mge314   3512029 3511924  0 51258  8620  15 11:23 ?        00:00:00 (sd-pam)
+root     3512345 1288969  0 11230 11788  12 11:24 ?        00:00:00 sshd: mge314 [priv]
+mge314   3512348 3512345  0 11230  7084   6 11:24 ?        00:00:00 sshd: mge314@pts/211
+mge314   3512352 3512348  0 59285  8164  26 11:24 pts/211  00:00:00 -bash
+root     3512361       2  0     0     0  22 11:24 ?        00:00:00 [kworker/22:1-rcu_gp]
+root     3512429       2  0     0     0  31 11:24 ?        00:00:00 [kworker/31:0-events]
+root     3512430       2  0     0     0  37 11:24 ?        00:00:00 [kworker/37:1-events]
+root     3512431       2  0     0     0  21 11:24 ?        00:00:00 [kworker/21:1-events]
+root     3513120       2  0     0     0  23 11:28 ?        00:00:00 [kworker/23:2-rcu_par_gp]
+root     3513134 1288969  0  8507 12624   7 11:30 ?        00:00:00 sshd: aad921 [priv]
+root     3513140 1288969  0  8510 12408  16 11:30 ?        00:00:00 sshd: aad921 [priv]
+aad921   3513144 3513134  0 11426  8888   6 11:30 ?        00:00:02 sshd: aad921@pts/220
+aad921   3513154 3513144  0 59289  9216  36 11:30 pts/220  00:00:00 -bash
+root     3513163       2  0     0     0   6 11:30 ?        00:00:00 [kworker/6:0-rcu_gp]
+aad921   3513164 3513144  0 55767  3612  44 11:30 ?        00:00:05 bash -c while true; do sleep 1;head -v -n 8 /proc/meminfo; head -v -n 2 /proc/stat /proc/version /proc/uptime /proc/loadavg /proc/sys/fs/file-nr /proc/sys/kernel/hostname; tail -v -n 16 /proc/net/dev;echo '==> /proc/df <==';df -l;echo '==> /proc/who <==';who;echo '==> /proc/end <==';echo '##Moba##'; done
+aad921   3513175 3513140  0 11388  8124  18 11:30 ?        00:00:00 sshd: aad921@notty
+aad921   3513185 3513175  0  5792  5752  34 11:30 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     3513258       2  0     0     0  22 11:30 ?        00:00:13 [kworker/u97:0-rpciod]
+root     3513415       2  0     0     0   5 11:30 ?        00:00:00 [kworker/5:2-events]
+root     3514670 1288969  0  8507 12472  36 11:34 ?        00:00:00 sshd: bos956 [priv]
+bos956   3514703 3514670  0 11387  8440   4 11:34 ?        00:00:00 sshd: bos956@pts/15
+bos956   3514710 3514703  0 59028  8176  40 11:34 pts/15   00:00:00 -bash
+root     3514819       2  0     0     0  39 11:34 ?        00:00:00 [kworker/39:1-events]
+root     3516291 1288969  0  8522 12516  40 11:38 ?        00:00:00 sshd: doe869 [priv]
+doe869   3516445       1  0  5181 12200  45 11:38 ?        00:00:00 /usr/lib/systemd/systemd --user
+doe869   3516546 3516445  0 51258  8620  46 11:38 ?        00:00:00 (sd-pam)
+doe869   3516721 3516291  0 11399  8248  42 11:38 ?        00:00:00 sshd: doe869@pts/294
+doe869   3516723 3516721  0 58993  8084  36 11:38 pts/294  00:00:00 -bash
+root     3516731       2  0     0     0  22 11:38 ?        00:00:00 [kworker/22:0-events]
+root     3517091       2  0     0     0  33 11:39 ?        00:00:00 [kworker/33:0-mm_percpu_wq]
+doe869   3517362 3516723  0 59916  8404  10 11:39 pts/294  00:00:00 ssh doe869@tuxworld.usask.ca
+root     3517363 1288969  0  8507 12476   6 11:39 ?        00:00:00 sshd: doe869 [priv]
+doe869   3517402 3517363  0 11386  8588  22 11:39 ?        00:00:00 sshd: doe869@pts/296
+doe869   3517403 3517402  0 58993  8116   6 11:39 pts/296  00:00:00 -bash
+root     3518083 1288969  0  8532 12552   8 11:41 ?        00:00:00 sshd: jeg312 [priv]
+root     3518216 1288969  0  8507 12488   8 11:41 ?        00:00:00 sshd: pim128 [priv]
+jeg312   3518242 3518083  0 11407  8844  36 11:41 ?        00:00:00 sshd: jeg312@pts/297
+jeg312   3518251 3518242  0 59028  8112  44 11:41 pts/297  00:00:00 -bash
+root     3518259       2  0     0     0  16 11:41 ?        00:00:00 [kworker/16:0-events]
+pim128   3518415       1  0  5182 12228  39 11:41 ?        00:00:00 /usr/lib/systemd/systemd --user
+pim128   3518491 3518415  0 51258  8620  45 11:41 ?        00:00:00 (sd-pam)
+root     3518590       2  0     0     0  47 11:41 ?        00:00:00 [kworker/47:2-events]
+pim128   3518684 3518216  0 11387  8612   8 11:41 ?        00:00:00 sshd: pim128@pts/298
+pim128   3518813 3518684  0 59023  8080  34 11:41 pts/298  00:00:00 -bash
+postfix  3518853    1882  0 14300  7764  23 11:41 ?        00:00:00 pickup -l -t unix -u
+root     3519052       2  0     0     0   9 11:42 ?        00:00:00 [kworker/9:0-mm_percpu_wq]
+root     3519053       2  0     0     0  13 11:42 ?        00:00:00 [kworker/13:1-mm_percpu_wq]
+root     3519610       2  0     0     0  11 11:43 ?        00:00:00 [kworker/11:1-cgroup_destroy]
+root     3519937       2  0     0     0  44 11:44 ?        00:00:20 [kworker/u97:1-rpciod]
+root     3519965       2  0     0     0  35 11:44 ?        00:00:00 [kworker/35:2-events]
+root     3520127       2  0     0     0  20 11:44 ?        00:00:00 [kworker/20:1-mm_percpu_wq]
+dle792   3520406 3484488  0 63390 22060  20 11:45 pts/200  00:00:00 /usr/bin/vim Jadyn_A3.txt
+root     3520703 1288969  0 11388 12836  16 11:46 ?        00:00:00 sshd: das463 [priv]
+das463   3520737 3520703  0 11388  7244  23 11:46 ?        00:00:00 sshd: das463@pts/255
+das463   3520745 3520737  0 58995  8136  36 11:46 pts/255  00:00:00 -bash
+root     3520754       2  0     0     0  32 11:46 ?        00:00:00 [kworker/32:0-events]
+root     3521170       2  0     0     0  45 11:47 ?        00:00:00 [kworker/45:1-events]
+das463   3521428 3341831  0 63419 12152   8 Oct19 pts/135  00:00:00 vim monitor.c
+root     3521437       2  0     0     0  16 11:48 ?        00:00:00 [kworker/16:2-events]
+root     3521650       2  0     0     0  36 11:48 ?        00:00:07 [kworker/u97:6-rpciod]
+root     3522073 1288969  0  8507 12496  12 11:49 ?        00:00:00 sshd: tik981 [priv]
+tik981   3522158       1  0  5181 12252   6 11:49 ?        00:00:00 /usr/lib/systemd/systemd --user
+tik981   3522254 3522158  0 51258  8620   2 11:49 ?        00:00:00 (sd-pam)
+tik981   3522425 3522073  0 11386  8496   2 11:49 ?        00:00:00 sshd: tik981@pts/300
+tik981   3522432 3522425  0 59026  8208  20 11:49 pts/300  00:00:00 -bash
+root     3522438       2  0     0     0  12 11:49 ?        00:00:00 [kworker/12:0-rcu_gp]
+root     3522969       2  0     0     0  34 11:50 ?        00:00:00 [kworker/34:1-mm_percpu_wq]
+root     3522971       2  0     0     0  22 11:50 ?        00:00:00 [kworker/u96:1]
+rdb990   3523315       1  0  5183 12228  15 11:50 ?        00:00:00 /usr/lib/systemd/systemd --user
+rdb990   3523416 3523315  0 51258  8620  44 11:50 ?        00:00:00 (sd-pam)
+root     3523491       2  0     0     0  15 11:50 ?        00:00:00 [kworker/15:0-events]
+root     3523805       2  0     0     0  40 11:50 ?        00:00:00 [kworker/40:0-rcu_par_gp]
+root     3523806       2  0     0     0  42 11:50 ?        00:00:00 [kworker/42:1-events]
+root     3525639       2  0     0     0  18 11:54 ?        00:00:00 [kworker/18:2-cgroup_destroy]
+root     3525700       2  0     0     0  18 11:54 ?        00:00:10 [kworker/u97:12-rpciod]
+root     3526159       2  0     0     0  33 11:55 ?        00:00:00 [kworker/33:2]
+root     3526309       2  0     0     0  13 11:55 ?        00:00:00 [kworker/13:2-events]
+dle792   3527309 3484744  0 55424  1212  40 11:57 pts/212  00:00:00 more Jacob_A3.txt
+root     3528481       2  0     0     0   2 11:58 ?        00:00:00 [kworker/2:1-mm_percpu_wq]
+root     3528903       2  0     0     0   6 11:58 ?        00:00:09 [kworker/u97:14-rpciod]
+root     3529019       2  1     0     0  18 11:59 ?        00:00:14 [kworker/u97:17-rpciod]
+root     3529074       2  1     0     0   6 11:59 ?        00:00:17 [kworker/u97:18-rpciod]
+root     3529445       2  0     0     0  42 12:00 ?        00:00:00 [kworker/42:2]
+root     3529492       2  0     0     0   0 12:00 ?        00:00:07 [kworker/u97:19-rpciod]
+root     3529599       2  0     0     0  12 12:00 ?        00:00:09 [kworker/u97:20-rpciod]
+root     3529634       2  0     0     0   6 12:00 ?        00:00:09 [kworker/u97:21-rpciod]
+root     3529805       2  0     0     0  26 12:00 ?        00:00:00 [kworker/26:0-events]
+root     3530306       2  0     0     0  30 12:01 ?        00:00:00 [kworker/30:2-events]
+root     3530355       2  0     0     0  10 12:01 ?        00:00:00 [kworker/10:0-events]
+root     3530570       2  0     0     0  25 12:01 ?        00:00:00 [kworker/25:2-cgroup_destroy]
+root     3530716       2  0     0     0  41 12:01 ?        00:00:00 [kworker/41:2-events]
+root     3530729 1288969  0 11198 12064  16 12:01 ?        00:00:00 sshd: jmb081 [priv]
+jmb081   3530789       1  0  5183 12336   8 12:01 ?        00:00:00 /usr/lib/systemd/systemd --user
+jmb081   3530874 3530789  0 51258  8620  30 12:01 ?        00:00:00 (sd-pam)
+root     3530946       2  0     0     0  45 12:01 ?        00:00:00 [kworker/45:0-events]
+jmb081   3531051 3530729  0 11198  7292  20 12:01 ?        00:00:00 sshd: jmb081@pts/303
+jmb081   3531057 3531051  0 59129  8328  18 12:01 pts/303  00:00:00 -bash
+root     3531485       2  0     0     0   7 12:02 ?        00:00:00 [kworker/7:2-events]
+root     3531628 1288969  0  8507 12392  45 12:02 ?        00:00:00 sshd: vok135 [priv]
+vok135   3531660 3531628  0 11387  8280  30 12:02 ?        00:00:00 sshd: vok135@pts/304
+vok135   3531663 3531660  0 59023  8024  20 12:02 pts/304  00:00:00 -bash
+root     3531716       2  0     0     0  45 12:02 ?        00:00:00 [kworker/u98:3-rpciod]
+root     3531861       2  1     0     0  24 12:02 ?        00:00:10 [kworker/u97:22-rpciod]
+root     3532201       2  0     0     0  29 12:03 ?        00:00:00 [kworker/29:2-events]
+root     3532202       2  0     0     0  14 12:03 ?        00:00:00 [kworker/14:1-events]
+root     3532792       2  0     0     0  33 12:04 ?        00:00:00 [kworker/u98:5-rpciod]
+root     3532983       2  0     0     0   9 12:04 ?        00:00:00 [kworker/9:2-events]
+root     3533156       2  0     0     0   5 12:05 ?        00:00:00 [kworker/5:0-events]
+root     3533157       1  0 88063 42440  43 12:05 ?        00:00:00 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+root     3533158       2  0     0     0   3 12:05 ?        00:00:00 [kworker/3:1-cgroup_destroy]
+root     3533170       1  0 206516 30912 35 12:05 ?        00:00:00 /usr/bin/python3 -s /usr/bin/fail2ban-server -xf start
+das463   3533699 3520745  0 57889  4372  40 12:06 pts/255  00:00:00 make qemu
+das463   3533706 3533699 99 483065 183848 27 12:06 pts/255 00:42:27 qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 3 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+root     3534042       2  0     0     0  28 12:06 ?        00:00:00 [kworker/28:0-rcu_par_gp]
+root     3534325       2  0     0     0  17 12:06 ?        00:00:00 [kworker/17:0-rcu_par_gp]
+root     3534785       2  0     0     0  25 12:07 ?        00:00:00 [kworker/25:0-events]
+root     3534786       2  0     0     0  31 12:07 ?        00:00:00 [kworker/31:2-events]
+root     3534787       2  0     0     0  30 12:07 ?        00:00:00 [kworker/30:1-mm_percpu_wq]
+root     3535293 1288969  0  8507 12596  36 12:08 ?        00:00:00 sshd: vok135 [priv]
+vok135   3535319 3535293  0 11387  8748  30 12:08 ?        00:00:00 sshd: vok135@notty
+vok135   3535321 3535319  0  6349  5520  20 12:08 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     3535841       2  0     0     0  34 12:09 ?        00:00:00 [kworker/34:2-cgroup_destroy]
+root     3535844       2  0     0     0  32 12:09 ?        00:00:00 [kworker/32:1]
+root     3535857       2  0     0     0   6 12:09 ?        00:00:00 [kworker/6:2-rcu_par_gp]
+root     3535911       2  0     0     0  12 12:09 ?        00:00:00 [kworker/12:1-rcu_par_gp]
+root     3536007       2  0     0     0   8 12:09 ?        00:00:00 [kworker/8:0-events]
+root     3536025       2  0     0     0  38 12:09 ?        00:00:00 [kworker/38:0-rcu_par_gp]
+root     3536031       2  0     0     0   4 12:09 ?        00:00:00 [kworker/4:1-events]
+root     3536192       2  0     0     0  20 12:09 ?        00:00:00 [kworker/20:0-events]
+root     3536411       2  0     0     0  10 12:09 ?        00:00:00 [kworker/10:1-inet_frag_wq]
+root     3536639       2  0     0     0   2 12:09 ?        00:00:00 [kworker/2:0-rcu_par_gp]
+root     3536870       2  0     0     0  40 12:09 ?        00:00:00 [kworker/40:2-rcu_par_gp]
+root     3537015 1288969  0  8507 12612   8 12:09 ?        00:00:00 sshd: rdb990 [priv]
+rdb990   3537042 3537015  0 11386  8436  16 12:09 ?        00:00:00 sshd: rdb990@pts/301
+rdb990   3537054 3537042  0 58995  8004  12 12:09 pts/301  00:00:00 -bash
+root     3537975       2  0     0     0  24 12:12 ?        00:00:00 [kworker/24:2-mm_percpu_wq]
+root     3538693       2  0     0     0  26 12:14 ?        00:00:00 [kworker/26:1-rcu_par_gp]
+root     3538775       2  0     0     0  21 12:14 ?        00:00:00 [kworker/21:0-cgroup_destroy]
+root     3538857       2  0     0     0  47 12:14 ?        00:00:00 [kworker/u98:0-rpciod]
+root     3538863       2  0     0     0   1 12:14 ?        00:00:00 [kworker/1:2-events]
+root     3539034       2  0     0     0  36 12:14 ?        00:00:00 [kworker/36:0-cgroup_destroy]
+root     3539075 1288969  0 11229 12180  42 12:14 ?        00:00:00 sshd: jmb081 [priv]
+jmb081   3539078 3539075  0 11229  7280  14 12:14 ?        00:00:00 sshd: jmb081@pts/302
+jmb081   3539081 3539078  0 59096  8224  18 12:14 pts/302  00:00:00 -bash
+root     3539089       2  0     0     0  44 12:14 ?        00:00:00 [kworker/44:2-mm_percpu_wq]
+root     3539090       2  0     0     0   0 12:14 ?        00:00:00 [kworker/0:0-mm_percpu_wq]
+root     3539341       2  0     0     0  20 12:15 ?        00:00:00 [kworker/20:2-events]
+root     3539542       2  0     0     0  17 12:15 ?        00:00:00 [kworker/17:2-events]
+root     3539543       2  0     0     0  41 12:15 ?        00:00:00 [kworker/41:0-mm_percpu_wq]
+root     3539544       2  0     0     0  15 12:15 ?        00:00:00 [kworker/15:1-events]
+root     3539646       2  0     0     0   7 12:15 ?        00:00:00 [kworker/7:0-events]
+root     3540187 1288969  0  8507 12516  18 12:15 ?        00:00:00 sshd: rdb990 [priv]
+rdb990   3540221 3540187  0 11439  9172  22 12:15 ?        00:00:00 sshd: rdb990@notty
+rdb990   3540229 3540221  0 55833  3852  34 12:15 ?        00:00:00 bash
+rdb990   3540286 3540229  0 55767  3424  36 12:15 ?        00:00:00 sh /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/rdb990/.vscode-server/.6261075646f055b99068d3688932416f2346dd3b.token
+rdb990   3540296 3540286  1 235998 78996  6 12:15 ?        00:00:03 /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/rdb990/.vscode-server/.6261075646f055b99068d3688932416f2346dd3b.token
+root     3540342       2  0     0     0  23 12:15 ?        00:00:00 [kworker/23:0-events]
+root     3540345       2  0     0     0  43 12:15 ?        00:00:00 [kworker/43:2-mm_percpu_wq]
+rdb990   3540350 3540296  0 166143 45816 42 12:15 ?        00:00:00 /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/bootstrap-fork --type=ptyHost --logsPath /student/rdb990/.vscode-server/data/logs/20221129T121554
+rdb990   3540416 3540296  1 250941 134844 26 12:15 ?       00:00:04 /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+rdb990   3540616 3540416  7 1035800 32476 24 12:15 ?       00:00:20 /student/rdb990/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/bin/cpptools
+root     3540898       2  0     0     0  11 12:15 ?        00:00:00 [kworker/11:0-cgroup_destroy]
+root     3541152       2  1     0     0  26 12:15 ?        00:00:02 [kworker/u97:2-rpciod]
+root     3541153       2  3     0     0  30 12:15 ?        00:00:07 [kworker/u97:3-xprtiod]
+root     3541154       2  1     0     0  34 12:15 ?        00:00:03 [kworker/u97:4-rpciod]
+rdb990   3541286 3540296  0 209070 51572 10 12:16 ?        00:00:01 /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/rdb990/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/bootstrap-fork --type=fileWatcher
+root     3541346       2  0     0     0   3 12:16 ?        00:00:00 [kworker/3:2-events]
+root     3541349       2  0     0     0  19 12:16 ?        00:00:00 [kworker/19:2-mm_percpu_wq]
+root     3541642       2  0     0     0  25 12:16 ?        00:00:00 [kworker/25:1-cgroup_destroy]
+root     3541858       2  0     0     0   2 12:16 ?        00:00:00 [kworker/2:2-events]
+root     3541859       2  0     0     0   6 12:16 ?        00:00:00 [kworker/6:1-mm_percpu_wq]
+root     3541866       2  0     0     0  34 12:16 ?        00:00:00 [kworker/34:0-rcu_par_gp]
+root     3541867       2  0     0     0  10 12:16 ?        00:00:00 [kworker/10:2-events]
+root     3541888       2  0     0     0  46 12:16 ?        00:00:00 [kworker/46:0]
+root     3542647 1288969  0  8507 12528  14 12:16 ?        00:00:00 sshd: jaa369 [priv]
+jaa369   3542719       1  0  5185 12332  14 12:17 ?        00:00:00 /usr/lib/systemd/systemd --user
+root     3542780       2  0     0     0  16 12:17 ?        00:00:00 [kworker/16:1-events]
+jaa369   3542821 3542719  0 51258  8620  19 12:17 ?        00:00:00 (sd-pam)
+jaa369   3542995 3542647  0 11387  8936  43 12:17 ?        00:00:00 sshd: jaa369@notty
+jaa369   3543002 3542995  0 55833  3764  41 12:17 ?        00:00:00 bash
+jaa369   3543127 3543002  0 55767  3372  10 12:17 ?        00:00:00 sh /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/jaa369/.vscode-server/.6261075646f055b99068d3688932416f2346dd3b.token
+jaa369   3543136 3543127  8 239909 97552 12 12:17 ?        00:00:15 /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/jaa369/.vscode-server/.6261075646f055b99068d3688932416f2346dd3b.token
+jaa369   3543174 3543136  0 176844 48884 26 12:17 ?        00:00:00 /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/bootstrap-fork --type=ptyHost --logsPath /student/jaa369/.vscode-server/data/logs/20221129T121703
+root     3543186       2  0     0     0  40 12:17 ?        00:00:00 [kworker/40:1-events]
+root     3543191       2  0     0     0  12 12:17 ?        00:00:00 [kworker/12:2-events]
+root     3543315       2  1     0     0  22 12:17 ?        00:00:03 [kworker/u97:5-rpciod]
+root     3543316       2  0     0     0  44 12:17 ?        00:00:00 [kworker/u97:7-rpciod]
+root     3543317       2  0     0     0  40 12:17 ?        00:00:01 [kworker/u97:8-rpciod]
+root     3543318       2  2     0     0  42 12:17 ?        00:00:05 [kworker/u97:9-rpciod]
+root     3543319       2  1     0     0  36 12:17 ?        00:00:02 [kworker/u97:10-rpciod]
+root     3543321       2  0     0     0   6 12:17 ?        00:00:00 [kworker/u97:11-rpciod]
+root     3543322       2  0     0     0   8 12:17 ?        00:00:00 [kworker/u97:13-rpciod]
+root     3543323       2  0     0     0  38 12:17 ?        00:00:00 [kworker/u97:15-rpciod]
+root     3543354 1288969  0  8507 12452  20 12:17 ?        00:00:00 sshd: mas634 [priv]
+mas634   3543430       1  0  5184 12320  20 12:17 ?        00:00:00 /usr/lib/systemd/systemd --user
+mas634   3543507 3543430  0 51258  8620  44 12:17 ?        00:00:00 (sd-pam)
+root     3543566       2  0     0     0  18 12:17 ?        00:00:00 [kworker/18:0-events]
+mas634   3543697 3543354  0 11386  8412  34 12:17 ?        00:00:00 sshd: mas634@pts/305
+mas634   3543720 3543697  0 59335  8556  44 12:17 pts/305  00:00:00 -bash
+root     3544064       2  0     0     0  16 12:17 ?        00:00:01 [kworker/u97:16-rpciod]
+root     3544065       2  2     0     0  10 12:17 ?        00:00:03 [kworker/u97:23-rpciod]
+root     3544098 1288969  0  8507 12492  29 12:17 ?        00:00:00 sshd: jaa369 [priv]
+root     3544302       2  0     0     0  27 12:17 ?        00:00:00 [kworker/27:0-events]
+root     3544347       2  0     0     0  24 12:17 ?        00:00:00 [kworker/24:0-mm_percpu_wq]
+jaa369   3544354 3544098  0 11463  8960   6 12:17 ?        00:00:00 sshd: jaa369@notty
+jaa369   3544362 3544354  0 55833  3684  10 12:17 ?        00:00:00 bash
+jaa369   3544417 3544362  0 55367   852  14 12:17 ?        00:00:00 sleep 180
+jaa369   3544420 3543136  3 248667 125244 46 12:17 ?       00:00:04 /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+jaa369   3544432 3543136  0 209010 42004  0 12:17 ?        00:00:00 /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/bootstrap-fork --type=fileWatcher
+jaa369   3544972 3544420  0 1101414 11308 0 12:17 ?        00:00:00 /student/jaa369/.vscode-server/extensions/ms-vscode.cpptools-1.13.5-linux-x64/bin/cpptools
+jaa369   3545350 3543174  0 58134  4480  46 12:18 pts/307  00:00:00 /bin/bash --init-file /student/jaa369/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+rdb990   3545532 3540229  0 55367   968  40 12:18 ?        00:00:00 sleep 180
+rpc619   3545592 3495137  0 55367   948  42 12:18 ?        00:00:00 sleep 180
+aad921   3545863 3513154  0 55975  4584  42 12:19 pts/220  00:00:00 nano asn7q3/asn7q3.sh
+root     3546146       2  0     0     0  36 12:19 ?        00:00:00 [kworker/36:1-events]
+jaa369   3546185 3543002  0 55367   932  36 12:20 ?        00:00:00 sleep 180
+jmb081   3546218 3539081  3 63512 22644  20 12:20 pts/302  00:00:00 vim /student/jmb081/bin/lsdir
+rpc619   3546237 3502967  0 55367   984  18 12:20 ?        00:00:00 sleep 180
+aad921   3546377 3513164  0 55367   940   0 12:20 ?        00:00:00 sleep 1
+doe869   3546380 3517403  0 59077  5400  34 12:20 pts/296  00:00:00 ps -eF
+doe869   3546381 3517403  0 55368   952  42 12:20 pts/296  00:00:00 tee asn7q2.txt
+doe869   3546382 3517403  0 55373   936  20 12:20 pts/296  00:00:00 tr -s  
+doe869   3546383 3517403  0 55377  1012   6 12:20 pts/296  00:00:00 cut -d   -f 7
+doe869   3546384 3517403  0 60612  2148  16 12:20 pts/296  00:00:00 sort
+doe869   3546385 3517403  0 55369   976   0 12:20 pts/296  00:00:00 uniq -c
+doe869   3546386 3517403  0 60612  2276   2 12:20 pts/296  00:00:00 sort
+doe869   3546387 3517403  0 55373   976  47 12:20 pts/296  00:00:00 tr -s   
+doe869   3546388 3517403  0 55370  1008  22 12:20 pts/296  00:00:00 cut -c 1-3
+doe869   3546389 3517403  0 55370   848  42 12:20 pts/296  00:00:00 head -1
+tjr760   3546702       1  0  5547 10588  27 Sep30 ?        00:01:33 /usr/lib/systemd/systemd --user
+tjr760   3546784 3546702  0 51090  8248  24 Sep30 ?        00:00:00 (sd-pam)
+vir138   3591058 3302060  0 63426 12100  16 Sep30 pts/78   00:00:00 vim mytestlist.c
+vir138   3615756 3301803  0 63421 12096  40 Sep30 pts/75   00:00:00 vim list_removers.c
+tjr760   3621748 3546702  0  4928  1856   3 Sep30 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+tjr760   3621749 3621748  0  1794  1136   3 Sep30 ?        00:00:01 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+tjr760   3621751 3546702  0 188467 9216  29 Sep30 ?        00:00:52 /usr/libexec/xdg-desktop-portal
+tjr760   3621757 3546702  0 167771 4668   8 Sep30 ?        00:00:00 /usr/libexec/xdg-document-portal
+tjr760   3621760 3546702  0 112147 3692  25 Sep30 ?        00:00:00 /usr/libexec/xdg-permission-store
+root     3621765 3621757  0  2930   420  47 Sep30 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/13161296/doc
+tjr760   3622037 3546702  0 65939  3052   8 Sep30 ?        00:00:00 /usr/bin/pipewire
+tjr760   3622038 3546702  0 119577 11252 15 Sep30 ?        00:01:51 /usr/bin/wireplumber
+tjr760   3622054 3546702  0 113791 5160  39 Sep30 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+dmr942   3716185       1  0  5539  7964  12 Sep25 ?        00:01:43 /usr/lib/systemd/systemd --user
+dmr942   3716249 3716185  0 51090  1844  37 Sep25 ?        00:00:00 (sd-pam)
+vir138   3728213 3035487  0 59024  8052   9 Nov15 pts/186  00:00:00 -bash
+vir138   3728250 3035487  0 59024  8256  29 Nov15 pts/192  00:00:00 -bash
+vir138   3728286 3035487  0 59293  8256  29 Nov15 pts/196  00:00:00 -bash
+vir138   3731684 3728213  0 63512 22668   9 Nov15 pts/186  00:00:19 vim vm.c
+vir138   3736904 3728286  0 63442 22308  47 Nov15 pts/196  00:00:00 vim queue.c
+vir138   3736910 3728250  0 63436 22244  31 Nov15 pts/192  00:00:00 vim queue.h
+arr455   3774238 1668779  0 58989   480  37 Sep20 pts/41   00:00:00 -bash
+arr455   3774366 3774238  0 63423  3896  13 Sep20 pts/41   00:00:00 /usr/bin/vim student.makefile
+vir138   3775839 3035487  0 59025  8104  21 Nov15 pts/213  00:00:00 -bash
+vir138   3775879 3035487  0 59292  8300  19 Nov15 pts/214  00:00:00 -bash
+vir138   3789746 3775879  0 63453 22424  45 Nov15 pts/214  00:00:00 vim vm.c
+tjr760   3812980       1  0 55424   116   7 Sep30 ?        00:00:00 more
+tjr760   3817853       1  0 55377    92  22 Sep30 ?        00:00:00 wc
+tjr760   3818976       1  0 55377    88  34 Sep30 ?        00:00:00 wc
+dmr942   3830478  942027  0 59025  8156  19 Nov15 pts/24   00:00:00 -bash
+dmr942   3830605  942027  0 59025  8348  39 Nov15 pts/68   00:00:00 -bash
+vir138   3845709 3035487  0 58958  6000  29 Sep30 pts/90   00:00:00 -bash
+vir138   3845823 3035487  0 58958  5996  29 Sep30 pts/102  00:00:00 -bash
+vir138   3845901 3035487  0 58958  5976  11 Sep30 pts/104  00:00:00 -bash
+vir138   3846186 3845709  0 63422 12296  29 Sep30 pts/90   00:00:04 vim mytestlist.c
+arr455   3889453       1  0  5544  8044  30 Sep19 ?        00:01:51 /usr/lib/systemd/systemd --user
+arr455   3889508 3889453  0 51090  4792   6 Sep19 ?        00:00:00 (sd-pam)
+vir138   3893119 3035487  0 59024  8164  18 Nov16 pts/173  00:00:00 -bash
+vir138   3893155 3035487  0 59024  8128  35 Nov16 pts/174  00:00:00 -bash
+vir138   3893191 3035487  0 59024  8140  37 Nov16 pts/175  00:00:00 -bash
+vir138   3896545 3893191  0 63429 22012  15 Nov16 pts/175  00:00:00 vim queue.c
+vir138   3897305 3893155  0 63427 22448   6 Nov16 pts/174  00:00:03 vim pgref.c
+vir138   3900281 3893119  0 63372 22144  44 Nov16 pts/173  00:00:00 vim Makefile
+ejm249   3920286 2551843  0 59025  8320   3 Nov16 pts/178  00:00:00 -bash
+vir138   3920937 3845823  0 63402 12244  31 Sep30 pts/102  00:00:00 vim list_removers.c
+gmj287   3983892 1679418  0  4929  2372  26 Jun23 ?        00:00:01 /usr/bin/dbus-broker-launch --scope user
+gmj287   3983914 3983892  0  1731   256  47 Jun23 ?        00:00:02 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+jak260   3987186 1980162  0 59025  8104  35 Nov16 pts/197  00:00:00 -bash
+jak260   3987225 1980162  0 59025  8112   9 Nov16 pts/198  00:00:00 -bash
+jak260   3988744 1980162  0 59025  8120  33 Nov16 pts/199  00:00:00 -bash
+jak260   3989347 3988744  0 63431 22132  33 Nov16 pts/199  00:00:00 vim scheduling.c
+jak260   3989948 3987186  0 63431 22096  35 Nov16 pts/197  00:00:00 vim trap.c
+qdf029   4010761       1  0  5530 13672   0 Nov16 ?        00:00:26 /usr/lib/systemd/systemd --user
+qdf029   4010837 4010761  0 51156  8500  45 Nov16 ?        00:00:00 (sd-pam)
+qdf029   4011182       1  0 55767  3356   7 Nov16 ?        00:00:00 sh /student/qdf029/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/code-server --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/qdf029/.vscode-server/.6261075646f055b99068d3688932416f2346dd3b.token
+qdf029   4011192 4011182  0 232398 64068 45 Nov16 ?        00:01:07 /student/qdf029/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/qdf029/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/server-main.js --start-server --host=127.0.0.1 --accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-level all --connection-token-file /student/qdf029/.vscode-server/.6261075646f055b99068d3688932416f2346dd3b.token
+qdf029   4011229 4011192  0 156142 47392 35 Nov16 ?        00:00:24 /student/qdf029/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node /student/qdf029/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/bootstrap-fork --type=ptyHost --logsPath /student/qdf029/.vscode-server/data/logs/20221116T232759
+ejm249   4079030 2551843  0 59025  8456   1 Nov17 pts/234  00:00:00 -bash
+ejm249   4079070 2551843  0 59025  8340  31 Nov17 pts/240  00:00:00 -bash
+ejm249   4079896 4079070  0 63481 21972  33 Nov17 pts/240  00:00:00 vim kernel/string.c
+bem346   4080896       1  0  5538  8588  11 Sep20 ?        00:01:48 /usr/lib/systemd/systemd --user
+bem346   4080916 4080896  0 51090  4280   2 Sep20 ?        00:00:00 (sd-pam)
+bem346   4088658       1  0 58739  2648  12 Sep20 ?        00:00:01 tmux new -s dev
+bem346   4088659 4088658  0 58990  2944   2 Sep20 pts/99   00:00:00 -bash
+bem346   4097378 4088658  0 58990   688  10 Sep20 pts/106  00:00:00 -bash
+bem346   4099873 4088658  0 58990  4168  20 Sep20 pts/107  00:00:00 -bash
+ejm249   4100445 2551843  0 59025  8260  10 Nov17 pts/215  00:00:00 -bash
+ejm249   4100493 2551843  0 59025  7996  27 Nov17 pts/217  00:00:00 -bash
+bem346   4102577 4088658  0 58990  4172  16 Sep20 pts/32   00:00:00 -bash
+nak877   4185795 2279893  0  4928  4964  12 Nov03 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+nak877   4185796 4185795  0  1794  2616  28 Nov03 ?        00:00:00 dbus-broker --log 4 --controller 11 --machine-id bc9fe648fdd2427bb9c1cfdf04d4c716 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+nak877   4185797 2279893  0 206904 17944  5 Nov03 ?        00:00:18 /usr/libexec/xdg-desktop-portal
+nak877   4185803 2279893  0 167771 6504   6 Nov03 ?        00:00:00 /usr/libexec/xdg-document-portal
+nak877   4185806 2279893  0 112147 4468  31 Nov03 ?        00:00:00 /usr/libexec/xdg-permission-store
+root     4185811 4185803  0  2930  1776   2 Nov03 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/8864413/doc
+nak877   4186165 2279893  0 65939  7516  32 Nov03 ?        00:00:00 /usr/bin/pipewire
+nak877   4186166 2279893  0 119562 14340 12 Nov03 ?        00:00:42 /usr/bin/wireplumber
+nak877   4186180 2279893  0 113790 9020  46 Nov03 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets

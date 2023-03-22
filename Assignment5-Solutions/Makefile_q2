@@ -1,0 +1,62 @@
+.PHONY:	clean deep_clean all librn
+
+CFLAGS= -Wall -Wextra 
+LDFLAGS= -L. -lrn
+
+# could also be
+# all:	librn treasure treasure_static
+all:	librn treasure
+
+librn:	librn.a librn.so
+
+librn.a:	rand_num_s.o
+	ar -c -r -s librn.a rand_num_s.o
+
+librn.so:	rand_num_d.o
+	gcc -shared -fpic -o librn.so rand_num_d.o
+
+# The dependency for rand_num_s.o could also be
+#   rand_num_s.o:	rand_num.c rand_num.h
+# However, rand_num.c does not actually depend on rand_num.h;
+# i.e. there is no #include "rand_num.h" in rand_num.c.
+rand_num_s.o:	rand_num.c
+	gcc -Wall -Wextra -c rand_num.c -o rand_num_s.o
+
+# The dependency for rand_num_s.o could also be
+#   rand_num_d.o:	rand_num.c rand_num.h
+# However, rand_num.c does not actually depend on rand_num.h;
+# i.e. there is no #include "rand_num.h" in rand_num.c.
+rand_num_d.o:	rand_num.c 
+	gcc -Wall -Wextra -c -shared -fpic -o rand_num_d.o rand_num.c
+
+# the dependency for the dynamically-linked version of treasure
+# could also be
+# treasure:	treasure.o field.o position.o librn.so
+treasure:	treasure.o field.o position.o
+	gcc -o treasure treasure.o field.o position.o $(LDFLAGS) 
+# To link all the components for treasure, we can also use 
+# gcc -o treasure treasure.o field.o position.o -L. -lrn -Wl,-rpath=.
+# to avoid having to set LD_LIBRARY_PATH afterward
+
+# the dependency for the statically-linked version of treasure
+# could also be
+# treasure:	treasure.o field.o position.o librn.a
+treasure_static:	treasure.o field.o position.o
+	gcc -o treasure_static -static treasure.o field.o position.o $(LDFLAGS) 
+
+field.o:	field.c field.h treasure.h
+
+position.o:	position.c position.h field.h rand_num.h treasure.h
+
+treasure.o:	treasure.c field.h position.h rand_num.h
+
+# use rm -f so that there is no warning message when any of the files do
+# not exist
+clean:
+	rm -f *.o
+
+# use rm -f so that there is no warning message when any of the files do
+# not exist
+deep_clean:	clean
+	rm -f librn.a librn.so treasure treasure_static
+

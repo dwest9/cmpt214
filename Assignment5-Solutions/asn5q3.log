@@ -1,0 +1,34 @@
+bash-5.1$ ls
+CMakeCache.txt	     CMakeLists.txt  Makefile	  position.c  rand_num.h
+CMakeFiles	     field.c	     Makefile_q1  position.h  treasure.c
+cmake_install.cmake  field.h	     Makefile_q2  rand_num.c  treasure.h
+bash-5.1$ cmake CMakeLists.txt
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /faculty/ajk449/show
+bash-5.1$ make all
+[ 16%] Building C object CMakeFiles/rn.dir/rand_num.c.o
+[ 33%] Linking C shared library librn.so
+[ 33%] Built target rn
+[ 50%] Building C object CMakeFiles/treasure.dir/treasure.c.o
+[ 66%] Building C object CMakeFiles/treasure.dir/field.c.o
+[ 83%] Building C object CMakeFiles/treasure.dir/position.c.o
+[100%] Linking C executable treasure
+[100%] Built target treasure
+bash-5.1$ file treasure
+treasure: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=81cfa7796a4e58b45c2e1b9700d9f592c20eda3b, for GNU/Linux 3.2.0, not stripped
+bash-5.1$ file librn.so
+librn.so: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=30e8ea55c55f665ecf7418d79883158bbd45497a, not stripped
+bash-5.1$ LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:.
+bash-5.1$ ./treasure 9
+******$**
+***@*****
+*********
+*********
+*********
+*********
+*********
+*********
+*********
+>q
+bash-5.1$ 

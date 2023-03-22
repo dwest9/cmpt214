@@ -1,0 +1,39 @@
+.PHONY: librn clean all
+
+LDFLAGS= -lrn
+LD_LIBRARY_PATH=-L/student/doe869
+
+all: librn shipbattle
+
+# rule to build the executable program from object files
+	
+shipbattle: gameplay.o gameboard.o shipbattle.o
+	gcc -Wall -Wextra -o shipbattle shipbattle.o gameplay.o gameboard.o $(LD_LIBRARY_PATH) $(LDFLAGS)
+
+librn: librn.a librn.so
+
+librn.so: rand_num_d.o
+	gcc -shared -o librn.so rand_num_d.o
+
+librn.a: rand_num_s.o
+	ar -c -r -s librn.a rand_num_s.o
+
+# rules to build object files
+rand_num_s.o: rand_num.c rand_num.h
+	gcc -Wall -Wextra -o rand_num_s.o -c rand_num.c
+
+rand_num_d.o: rand_num.c rand_num.h
+	gcc -Wall -Wextra -o rand_num_d.o -shared -fpic -c rand_num.c
+
+shipbattle.o: shipbattle.c gameplay.h rand_num.h
+	gcc -Wall -Wextra -o shipbattle.o -c shipbattle.c 
+
+gameplay.o: gameplay.c gameplay.h gameboard.h
+	gcc -Wall -Wextra -c gameplay.c
+
+gameboard.o: gameboard.c gameboard.h
+	gcc -Wall -Wextra -c gameboard.c
+
+# rule to remove all build targets
+clean:
+	-rm -f *.o librn.a librn.so shipbattle

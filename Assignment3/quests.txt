@@ -1,0 +1,16 @@
+Destroy_the_worms_in_Princess_Bubblegum's_basement 1 10
+Infiltrate_the_bandit's_lair 2 40
+Defeat_Goliad 20 4000
+Locate_the_Lich's_lair 35 12250
+Atone_for_Shoko's_sins 15 2250
+Make_an_amazing_sandwich 7 490
+Find_the_Ice_King's_Wizard_Eye 9 810
+Get_some_pickles_from_Prismo 27 7290
+Rescue_Wildberry_Princess_from_the_Ice_King 12 1440
+Win_Wizard_Battle 13 1690
+Eat_Marceline's_fries 3 90
+Rescue_Marceline_from_the_Nightosphere 21 441
+Discover_Peppermint_Butler's_secrets 32 10240
+Defeat_the_Ice_King's_penguin_army 27 7290
+Discover_the_Ice_King's_secret_past 10 1000
+Find_out_what_Beemo_does_when_he_is_alone 6 360

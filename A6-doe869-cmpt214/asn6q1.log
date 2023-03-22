@@ -1,0 +1,17 @@
+commit 14f95290fe43ec627b5db78842a39a32b86bf2ef (HEAD -> refs/heads/master, refs/heads/develop)
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Sun Nov 20 17:16:27 2022 -0600
+
+    created a Makefile and then added it to the repository
+
+commit aa6afef6504add30ffb1e3b6105c21dc08b7dae7
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Sun Nov 20 16:52:23 2022 -0600
+
+    modified rs.c: removed the lines containing #ifdef through #endif and also made changes on line 83 removing both __dead and  __printflike(1, 2)
+
+commit 7e30730cb7366a0bcdfc1d30041c3f0208a5f176
+Author: david emmanuel <doe869@tux.ca>
+Date:   Sun Nov 20 15:51:29 2022 -0600
+
+    initial commit added rs.c to the master branch

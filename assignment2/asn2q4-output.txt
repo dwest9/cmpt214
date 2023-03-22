@@ -1,0 +1,61 @@
+// Name: David Emmanuel
+// Student Number: 11298443
+// Couse: cmpt214 section03 Assignment2 
+// NSID: Doe869
+// Instructor: Tony Kusalik
+
+
+doe869@tux7:~> gcc -Wall -Wextra -o q24 asn2q4.c -lm
+doe869@tux7:~> ./q24
+Monster starting level: 5
+Monster ending_level: 10
+Monster type (1=normal, 2=elite, 3=boss): 2
+Hero Level: 1
+Generating experience point table for Hero level = 1, Monster type = 2 ...
+Monster level   Experience Points (Adjusted)  
+5               219                           
+6               268                           
+7               328                           
+8               401                           
+9               485                           
+10              593  
+
+
+#2                         
+doe869@tux7:~> ./q24
+Monster starting level: 10
+Monster ending_level: 13
+Monster type (1=normal, 2=elite, 3=boss): 2
+Hero Level: 2
+Generating experience point table for Hero level = 2, Monster type = 2 ...
+Monster level   Experience Points (Adjusted)  
+10              494                           
+11              603                           
+12              736                           
+13              899  
+
+
+
+#3                         
+doe869@tux7:~> ./q24
+Monster starting level: 7
+Monster ending_level: 20
+Monster type (1=normal, 2=elite, 3=boss): 3
+Hero Level: 10
+Generating experience point table for Hero level = 10, Monster type = 3 ...
+Monster level   Experience Points (Adjusted)  
+7               81                            
+8               104                           
+9               137                           
+10              179                           
+11              234                           
+12              305                           
+13              397                           
+14              518                           
+15              674                           
+16              877                           
+17              1135                          
+18              1470                          
+19              1898                          
+20              2451                          
+doe869@tux7:~> 

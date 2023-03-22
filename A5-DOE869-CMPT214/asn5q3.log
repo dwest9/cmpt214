@@ -1,0 +1,22 @@
+Script started on 2022-11-18 17:16:26-06:00 [TERM="xterm-256color" TTY="/dev/pts/203" COLUMNS="114" LINES="11"]
+[?2004hdoe869@tux8:~> cmake .
+[?2004l-- Configuring done
+-- Generating done
+-- Build files have been written to: /student/doe869
+[?2004hdoe869@tux8:~> make all
+[?2004l[ 16%] [32mBuilding C object CMakeFiles/rn.dir/rand_num.c.o[0m
+[ 33%] [32m[1mLinking C shared library librn.so[0m
+[ 33%] Built target rn
+[ 50%] [32mBuilding C object CMakeFiles/shipbattle.dir/gameplay.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/shipbattle.dir/gameboard.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/shipbattle.dir/shipbattle.c.o[0m
+[100%] [32m[1mLinking C executable shipbattle[0m
+[100%] Built target shipbattle
+[?2004hdoe869@tux8:~> filw[Ke shipbattle
+[?2004lshipbattle: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=008d3382f7072d64a4a853c460ca9d3be8903686, for GNU/Linux 3.2.0, not stripped
+[?2004hdoe869@tux8:~> file librn.so
+[?2004llibrn.so: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=22027401230b71394d80c1ddcb262bae8ecb6193, not stripped
+[?2004hdoe869@tux8:~> exit
+[?2004lexit
+
+Script done on 2022-11-18 17:17:31-06:00 [COMMAND_EXIT_CODE="0"]

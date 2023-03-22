@@ -1,0 +1,13 @@
+Choose_a_challenge 8 20
+Destroy_the_town_with_the_sword_of_camelot 13 25
+Open_the_gates_to_the_castle 1 9
+Get_the_splinter_from_the_castle_door 15 60
+Apply_the_healing_ointment_to_recover 70 60
+Get_some_food_for_the_warriors 100 0
+Pick_an_outfit_to_wear_to_the_battle 10000 111
+Summon_your_friends_for_battle 23 88
+Go_to_the_Awesome_Store 13 14
+Catch_the_midnight_burglar 0 1
+Eat_gumball's_cookie 46 65
+Move_to_the_next_level 56 77
+Fight_your_true_enemy 0 250

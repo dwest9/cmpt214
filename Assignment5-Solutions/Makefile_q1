@@ -1,0 +1,28 @@
+.PHONY:	 clean librn
+
+librn:	librn.a librn.so
+
+librn.a:	rand_num_s.o
+	ar -c -r -s librn.a rand_num_s.o
+
+librn.so:	rand_num_d.o
+	gcc -fpic -o librn.so rand_num_d.o
+
+# The dependency for rand_num_s.o could also be
+#   rand_num_s.o:	rand_num.c rand_num.h
+# However, rand_num.c does not actually depend on rand_num.h;
+# i.e. there is no #include "rand_num.h" in rand_num.c.
+rand_num_s.o:	rand_num.c rand_num.h
+	gcc -Wall -Wextra -c rand_num.c -o rand_num_s.o
+
+# The dependency for rand_num_s.o could also be
+#   rand_num_d.o:	rand_num.c rand_num.h
+# However, rand_num.c does not actually depend on rand_num.h;
+# i.e. there is no #include "rand_num.h" in rand_num.c.
+rand_num_d.o:	rand_num.c 
+	gcc -Wall -Wextra -c -shared -fpic -o rand_num_d.o rand_num.c
+
+# use rm -f so that there is no warning message when any of the files do
+# not exist
+clean:
+	rm -f *.o

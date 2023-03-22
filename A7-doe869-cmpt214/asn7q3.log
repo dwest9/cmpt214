@@ -1,0 +1,53 @@
+commit 4ec4bcca58e644605bc33e8b13f9f0fbd6e1acff (HEAD -> refs/heads/master, refs/heads/develop)
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Wed Nov 30 22:53:34 2022 -0600
+
+    made a little change on my master branch because it was showing merge conflict
+
+commit 1aaefaf4eb5eb7ec454e0077323d5f5ae49b1f15
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 05:24:37 2022 -0600
+
+    merging master and develop
+
+commit 27cffeced3b8ef77821c8db730bdf87e7c6c9540
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 04:30:27 2022 -0600
+
+    ran bash lsdir.sh after writing code on vi and no error occured
+
+commit 42103f0ba11b4ee3a16750a16e8470c0e0e51e1f
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 03:57:07 2022 -0600
+
+    added a line to output the files with width of 80 characters
+
+commit 2a7e1f33e49c5665ab0b720d43d5657a435b1528
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 03:48:45 2022 -0600
+
+    added new lines to lsdir to check for directory names without spaces
+
+commit e3c948067a87e0c20686adcf6665381b2ae9e227
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 03:35:34 2022 -0600
+
+    added new lines to .lsdir on vi to check for directory names with spaces
+
+commit d9828cacda4586a286b6439b0ce3600ddb06f04c
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 02:56:07 2022 -0600
+
+    tested the lsdir.sh to see if NUM_COL is calculated correctly, and its working
+
+commit d778adfbe8812c7f05fd622fd4a961aa2f8e7863
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 02:47:36 2022 -0600
+
+    checked out to develop branch from master
+
+commit c4dc602bcb8b873b07c35033d4d094ea9a9888a7
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 02:20:50 2022 -0600
+
+    initial commit. created asn7q3 and added rs and lsdir

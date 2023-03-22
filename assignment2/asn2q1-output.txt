@@ -1,0 +1,60 @@
+// Name: David Emmanuel
+// Student Number: 11298443
+// Couse: cmpt214 section03 Assignment2 
+// NSID: Doe869
+// Instructor: Tony Kusalik
+
+
+
+doe869@tux7:~> gcc -Wall -Wextra -o q21 asn2q1.c -lm
+doe869@tux7:~> ./q21
+Monster starting level: 5
+Monster ending_level: 10
+Monster type (1=normal, 2=elite, 3=boss): 2
+Hero Level: 1
+Generating experience point table for Hero level = 1, Monster type = 2 ...
+Monster level   Experience Points (Adjusted)  
+5               219                           
+6               268                           
+7               328                           
+8               401                           
+9               485                           
+10              593   
+
+
+#2                        
+doe869@tux7:~> ./q21
+Monster starting level: 10
+Monster ending_level: 20
+Monster type (1=normal, 2=elite, 3=boss): 3
+Hero Level: 12
+Generating experience point table for Hero level = 12, Monster type = 3 ...
+Monster level   Experience Points (Adjusted)  
+10              124                           
+11              162                           
+12              212                           
+13              276                           
+14              360                           
+15              468                           
+16              609                           
+17              788                           
+18              1021                          
+19              1318                          
+20              1702                          
+
+
+#3
+doe869@tux7:~> ./q21
+Monster starting level: 7
+Monster ending_level: 11
+Monster type (1=normal, 2=elite, 3=boss): 2
+Hero Level: 3
+Generating experience point table for Hero level = 3, Monster type = 2 ...
+Monster level   Experience Points (Adjusted)  
+7               228                           
+8               278                           
+9               337                           
+10              412                           
+11              503   
+                        
+doe869@tux7:~> 

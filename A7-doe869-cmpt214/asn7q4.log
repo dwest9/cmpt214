@@ -1,0 +1,35 @@
+commit b3ab93d740c85c0e1cf5912859980b3d615e50b5 (HEAD -> refs/heads/master, refs/heads/develop)
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 17:15:49 2022 -0600
+
+    using the command chmod +x lsdir.sh for the executable
+
+commit 6c4487247e352fd9124276438661cac0aa485e3d
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 17:10:33 2022 -0600
+
+    turning on the execute permission for lsdir.sh script
+
+commit 5afd877d02079f43397e72f3d351a8ede1b0623d
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 16:40:10 2022 -0600
+
+    added newline to check(line 14-20) if it cd to current working directory
+
+commit b2dd213f4e2878e201d3891305f17bad04cf9999
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 16:27:16 2022 -0600
+
+    added newline to a condition of not more than one argument
+
+commit 037a141e2a7d8e1880a5ffb42c6ea72b8993ab2b
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 15:28:09 2022 -0600
+
+    checked out to develop branch to start modifying code
+
+commit a9826c754ca1c813f865c43a85719c3e90205bf6
+Author: David Emmanuel <doe869@mail.usask.ca>
+Date:   Tue Nov 29 15:03:28 2022 -0600
+
+    initial commit. Added the completed lsdir.sh and rs from q3 to q4

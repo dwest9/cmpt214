@@ -1,0 +1,70 @@
+// Name: David Emmanuel
+// Student Number: 11298443
+// Assignment: cmpt214 Assignment1 
+// NSID: Doe869
+
+
+
+doe869@tux7:~> gcc -Wall -Wextra -o q3 ans1q3.c -lm
+doe869@tux7:~> ./q3
+What is the monster's level? 90
+Error: monster level must be between 1 and 50.
+What is the monster's level? 0
+Error: monster level must be between 1 and 50.
+What is the monster's level? 5
+What is the monster's type (1=normal, 2=elite, 3=boss)? 4
+Error: monster type must be 1 (normal) 2 (elite) or 3 (boss).
+What is the monster's type (1=normal, 2=elite, 3=boss)?  2
+What is the hero's level? 7
+The monster is level 5
+The hero is level 7
+The monster's base XP value is: 106
+The monster's adjusted XP is: 73
+
+
+
+doe869@tux7:~> ./q3
+What is the monster's level? g
+q3: input error: normal termination, must take an integer value btw 1 to 50: Success
+doe869@tux7:~> ./q3
+
+
+What is the monster's level? 30
+What is the monster's type (1=normal, 2=elite, 3=boss)? 1
+What is the hero's level? 9
+The monster is level 30
+The hero is level 9
+The monster's base XP value is: 175
+The monster's adjusted XP is: 8050
+
+
+doe869@tux7:~> ./q3
+What is the monster's level? 9
+What is the monster's type (1=normal, 2=elite, 3=boss)? 3
+What is the hero's level? f
+q3: input error: normal termination, must take an integer value btw 1 to 50: Success
+
+
+doe869@tux7:~> ./q3
+What is the monster's level? 40
+What is the monster's type (1=normal, 2=elite, 3=boss)? 3
+What is the hero's level? 50
+The monster is level 40
+The hero is level 50
+The monster's base XP value is: 1206
+The monster's adjusted XP is: 194
+
+
+
+doe869@tux7:~> ./q3
+What is the monster's level? 89
+Error: monster level must be between 1 and 50.
+What is the monster's level? 20
+What is the monster's type (1=normal, 2=elite, 3=boss)? 3
+What is the hero's level? 60
+Error: hero level must be between 1 and 50.
+What is the monster's level? 8
+The monster is level 20
+The hero is level 8
+The monster's base XP value is: 396
+The monster's adjusted XP is: 3530

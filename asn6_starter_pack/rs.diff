@@ -1,0 +1,34 @@
+bash-5.1$ git diff
+diff --git a/rs.c b/rs.c
+index a5bb720..17d18a0 100644
+--- a/rs.c
++++ b/rs.c
+@@ -30,18 +30,6 @@
+  */
+ 
+ #include <sys/cdefs.h>
+-#ifndef lint
+-__COPYRIGHT("@(#) Copyright (c) 1993\
+- The Regents of the University of California.  All rights reserved.");
+-#endif /* not lint */
+-
+-#ifndef lint
+-#if 0
+-static char sccsid[] = "@(#)rs.c       8.1 (Berkeley) 6/6/93";
+-#else
+-__RCSID("$NetBSD: rs.c,v 1.16 2019/02/03 03:19:30 mrg Exp $");
+-#endif
+-#endif /* not lint */
+ 
+ /*
+  *     rs - reshape a data array
+@@ -93,7 +81,7 @@ static int    propgutter;
+ static char    isep = ' ', osep = ' ';
+ static int     owidth = 80, gutter = 2;
+ 
+-static void      usage(const char *, ...) __dead __printflike(1, 2);
++static void      usage(const char *, ...);
+ static void      getargs(int, char *[]);
+ static void      getfile(void);
+ static int       get_line(void);
+bash-5.1$

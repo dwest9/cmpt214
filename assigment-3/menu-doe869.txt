@@ -1,0 +1,7 @@
+1._Original_Chicken_Sandwich 11.99
+2._Szechuan_Flame_Chicken_Sandwich 13.99
+3._Spicy_Cumin_Chicken_Sandwich_(spicy) 10.99
+4._BBQ_Chicken_Sandwich 15.99
+5._Matcha_Strawberry_Milk 8.99
+6._Lychee_Smoothie_Macchiato 9.99
+7._Fresh_Taro_Latte_(Milk_Tea) 5.99

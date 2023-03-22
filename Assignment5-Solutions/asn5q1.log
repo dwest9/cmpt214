@@ -1,0 +1,46 @@
+tux5(29)% ls -l librn.a
+-rw-r--r-- 1 kusalik faculty 1896 Oct 24 07:58 librn.a
+tux5(31)% file librn.a
+librn.a: current ar archive
+tux5(33)% nm librn.a
+
+rand_num_s.o:
+                 U err
+                 U gettimeofday
+0000000000000000 T rand_init
+000000000000003f T rand_num
+                 U random
+                 U srandom
+tux5(34)% 
+
+tux5(34)% ls -l librn.so
+-rwxr-xr-x 1 kusalik faculty 16384 Oct 24 07:58 librn.so*
+tux5(35)% file librn.so
+librn.so: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=77c4c4973d465ff94f995ea166c059a28f0bf7bc, not stripped
+tux5(36)% nm librn.so
+0000000000004040 b completed.0
+                 w __cxa_finalize@GLIBC_2.2.5
+0000000000001080 t deregister_tm_clones
+00000000000010f0 t __do_global_dtors_aux
+0000000000003e10 d __do_global_dtors_aux_fini_array_entry
+0000000000003e18 d __dso_handle
+0000000000003e20 d _DYNAMIC
+                 U err@GLIBC_2.2.5
+00000000000011c0 t _fini
+0000000000001130 t frame_dummy
+0000000000003e08 d __frame_dummy_init_array_entry
+00000000000020a8 r __FRAME_END__
+                 U gettimeofday@GLIBC_2.2.5
+0000000000004000 d _GLOBAL_OFFSET_TABLE_
+                 w __gmon_start__
+0000000000002000 r __GNU_EH_FRAME_HDR
+0000000000001000 t _init
+                 w _ITM_deregisterTMCloneTable
+                 w _ITM_registerTMCloneTable
+0000000000001139 T rand_init
+0000000000001178 T rand_num
+                 U random@GLIBC_2.2.5
+00000000000010b0 t register_tm_clones
+                 U srandom@GLIBC_2.2.5
+0000000000004040 d __TMC_END__
+tux5(37)% 
